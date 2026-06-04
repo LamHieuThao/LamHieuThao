@@ -12,7 +12,7 @@ pre: " <b> 4. </b> "
 
 &emsp;**Date & Time:**  9:00 AM – 12:00 PM, Saturday, May 23, 2026 
 
-&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
+&emsp;**Location:** 36th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 
 &emsp;**Role:** Attendee  
 

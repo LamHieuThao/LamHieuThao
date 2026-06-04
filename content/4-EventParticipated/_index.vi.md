@@ -14,7 +14,7 @@ pre: " <b> 4. </b> "
 
  **Thời gian:** 9:00 – 12:00, Thứ Bảy, ngày 23 tháng 05 năm 2026
 
- **Địa điểm:** Tầng 26, Tòa nhà Bitexco, 02 Hai Trieu, Phường Saigon, TP. Hồ Chí Minh
+ **Địa điểm:** Tầng 36, Tòa nhà Bitexco, 02 Hai Trieu, Phường Saigon, TP. Hồ Chí Minh
 
  **Vai trò:** Người tham dự
 
