@@ -17,7 +17,9 @@ chapter: false
 
 &emsp; **Major:** Information Security
 
-&emsp; **Class:** 22DATA1 &emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
+&emsp; **Class:** 22DATA1
+
+&emsp; **Internship Company:** Amazon Web Services Viet Nam Company Limited
 
 &emsp; **Internship Position:** FCJ Cloud Intern
 

@@ -17,7 +17,9 @@ chapter: false
 
 &emsp; **Ngành:** An toàn Thông tin
 
-&emsp; **Lớp:** 22DATA1 &emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam
+&emsp; **Lớp:** 22DATA1 
+
+&emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Viet Nam
 
 &emsp; **Vị trí thực tập:** FCJ Cloud Intern
 
