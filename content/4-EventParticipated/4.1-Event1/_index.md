@@ -1,191 +1,126 @@
 ---
-title: "AI/ML/GenAI on AWS Workshop"
-date: "2025-11-15"
+title: "Event 1"
+date: 2024-01-01
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
+{{% notice warning %}}
+⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
+{{% /notice %}}
 
-# Summary Report: “AI/ML/GenAI on AWS Workshop”
+# Summary Report: “GenAI-powered App-DB Modernization workshop”
 
 ### Event Objectives
 
-- Provide an overview of the **AI/ML/GenAI ecosystem on AWS**.  
-- Introduce **Amazon SageMaker** for end-to-end Machine Learning workflows.  
-- Deliver core knowledge and hands-on insights into **Generative AI** through Amazon Bedrock.  
-- Enable networking opportunities between students and AWS experts.  
-- Highlight AI/ML trends in Vietnam and the essential skills required for career development in the field.
+- Share best practices in modern application design
+- Introduce Domain-Driven Design (DDD) and event-driven architecture
+- Provide guidance on selecting the right compute services
+- Present AI tools to support the development lifecycle
 
----
+### Speakers
 
-### Agenda Overview
+- **Jignesh Shah** – Director, Open Source Databases
+- **Erica Liu** – Sr. GTM Specialist, AppMod
+- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
 
-**⏰ Time:** 8:30 AM – 12:00 PM, Saturday, November 15, 2025  
-**📍 Location:** AWS Vietnam Office  
+### Key Highlights
 
----
+#### Identifying the drawbacks of legacy application architecture
 
-## Key Highlights
+- Long product release cycles → Lost revenue/missed opportunities  
+- Inefficient operations → Reduced productivity, higher costs  
+- Non-compliance with security regulations → Security breaches, loss of reputation  
 
-### 1. Welcome & Introduction (8:30 – 9:00 AM)
+#### Transitioning to modern application architecture – Microservices
 
-- Participant check-in and networking.  
-- Workshop overview and learning objectives.  
-- Ice-breaker activities to encourage group interaction.  
-- Introduction to the current AI/ML landscape in Vietnam.
+Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
 
----
+- **Queue Management**: Handle asynchronous tasks  
+- **Caching Strategy**: Optimize performance  
+- **Message Handling**: Flexible inter-service communication  
 
-### 2. AWS AI/ML Services Overview (9:00 – 10:30 AM)
+#### Domain-Driven Design (DDD)
 
-The workshop provided a comprehensive introduction to the **full AI Services ecosystem on AWS**, focusing on pre-trained APIs and ready-to-use intelligent capabilities.
+- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
+- **Bookstore case study**: Demonstrates real-world DDD application  
+- **Context mapping**: 7 patterns for integrating bounded contexts  
 
-## **1. AI Services (Pre-trained APIs – no training required)**  
-These fully managed AI services support a variety of tasks including recognition, analysis, text extraction, speech processing, and content understanding.
+#### Event-Driven Architecture
 
----
+- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
+- **Benefits**: Loose coupling, scalability, resilience  
+- **Sync vs async comparison**: Understanding the trade-offs  
 
-### 🔹 Computer Vision
+#### Compute Evolution
 
-**Amazon Rekognition**  
-- Facial recognition  
-- Image and video analysis  
-- Object and scene detection  
-- Text-in-image extraction  
+- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
+- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
+- **Functions vs Containers**: Criteria for appropriate choice  
 
----
+#### Amazon Q Developer
 
-### 🔹 Document AI / Text Extraction
+- **SDLC automation**: From planning to maintenance  
+- **Code transformation**: Java upgrade, .NET modernization  
+- **AWS Transform agents**: VMware, Mainframe, .NET migration  
 
-**Amazon Textract**  
-- Extract text, tables, and forms from scanned documents/PDFs  
-- Advanced OCR with structural understanding  
+### Key Takeaways
 
-**Amazon Comprehend**  
-- Natural Language Processing (NLP)  
-- Sentiment analysis  
-- Entity recognition  
-- Keyphrase extraction  
-- Topic modeling  
+#### Design Mindset
 
----
+- **Business-first approach**: Always start from the business domain, not the technology  
+- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
+- **Bounded contexts**: Identifying and managing complexity in large systems  
 
-### 🔹 Speech & Voice
+#### Technical Architecture
 
-**Amazon Transcribe**  
-- Speech-to-Text conversion  
-- Automatic speech recognition  
-- Speaker identification and timestamps  
+- **Event storming technique**: Practical method for modeling business processes  
+- Use **event-driven communication** instead of synchronous calls  
+- **Integration patterns**: When to use sync, async, pub/sub, streaming  
+- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
 
-**Amazon Polly**  
-- Text-to-Speech (TTS)  
-- Natural-sounding neural voices  
+#### Modernization Strategy
 
----
+- **Phased approach**: No rushing — follow a clear roadmap  
+- **7Rs framework**: Multiple modernization paths depending on the application  
+- **ROI measurement**: Cost reduction + business agility  
 
-### 🔹 Chatbot & Conversation AI
+### Applying to Work
 
-**Amazon Lex**  
-- Conversational chatbot development  
-- Intent classification and slot filling  
+- **Apply DDD** to current projects: Event storming sessions with business teams  
+- **Refactor microservices**: Use bounded contexts to define service boundaries  
+- **Implement event-driven patterns**: Replace some sync calls with async messaging  
+- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
+- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
 
-**Amazon Connect Contact Lens**  
-- Call analytics for contact centers  
-- Sentiment and behavior analysis  
+### Event Experience
 
----
+Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
 
-### 🔹 Personalization & Recommendations
+#### Learning from highly skilled speakers
+- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
+- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
 
-**Amazon Personalize**  
-- Personalized product recommendation  
-- Powered by Amazon.com’s recommendation technology  
+#### Hands-on technical exposure
+- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
+- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
+- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
 
----
+#### Leveraging modern tools
+- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
+- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
 
-### 🔹 Fraud Detection
+#### Networking and discussions
+- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
+- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
 
-**Amazon Fraud Detector**  
-- Detect fraudulent activities  
-- Predict abnormal or risky behavior  
+#### Lessons learned
+- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
+- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
+- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
 
----
+#### Some event photos
+*Add your event photos here*  
 
-### 🔹 Forecasting & Time-series
-
-**Amazon Forecast**  
-- Demand and sales forecasting  
-- ML-powered time-series analysis  
-
----
-
-### 🔹 Search
-
-**Amazon Kendra**  
-- Enterprise semantic search  
-- Natural language question answering  
-
----
-
-### 🔹 Translation
-
-**Amazon Translate**  
-- High-quality neural machine translation  
-
----
-
-### Amazon SageMaker – ML Platform
-
-The workshop also explored **Amazon SageMaker** as a powerful ML development platform, including:
-
-- Data preparation and labeling  
-- Model training and tuning  
-- Deployment, monitoring, and optimization  
-- End-to-end MLOps pipelines  
-
-**Live Demo: SageMaker Studio**  
-- Hands-on demonstration from notebook workflows to model deployment.
-
----
-
-### 3. Coffee Break (10:30 – 10:45 AM)
-
-A short networking break between participants and AWS mentors.
-
----
-
-### 4. Generative AI with Amazon Bedrock (10:45 AM – 12:00 PM)
-
-- Overview of Foundation Models: Claude, Llama, Titan  
-- Prompt Engineering techniques: Chain-of-thought, Few-shot examples  
-- **RAG Architecture** and Knowledge Bases  
-- **Bedrock Agents** for multi-step automation  
-- **Guardrails** for safe and compliant AI applications  
-- **Live Demo:** Building a Generative AI chatbot with Bedrock  
-
----
-
-## Key Takeaways
-
-### AI/ML on AWS
-- AWS provides a wide range of AI Services suitable for real-world applications.  
-- SageMaker supports a standardized, scalable ML lifecycle from data preparation to deployment.  
-
-### Generative AI
-- Each Foundation Model offers unique strengths depending on the use case.  
-- RAG is essential for integrating enterprise data into GenAI applications.
-
-### Bedrock Ecosystem
-- Bedrock Agents enable automation of complex workflows.  
-- Guardrails ensure safe, responsible, and compliant AI usage.  
-
----
-
-### Some event photos
-*Add your event photos here*
-
----
-
-> The workshop delivered a comprehensive overview of AI/ML/GenAI on AWS, with practical insights into applying AI Services, SageMaker, and Bedrock in real-world scenarios. It serves as a strong foundation for participants to further explore career opportunities in AI and Machine Learning.
-
+> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.

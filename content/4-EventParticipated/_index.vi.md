@@ -1,33 +1,29 @@
 ---
 title: "Các events đã tham gia"
-date: "2025-09-08"
+date: 2024-01-01
 weight: 4
 chapter: false
 pre: " <b> 4. </b> "
 ---
 
 
-### [Event 2](4.2-Event2/)
-
- **Tên sự kiện:** FCAJ Community Day
-– Conference Call
-
- **Thời gian:** 9:00 – 12:00, Thứ Bảy, ngày 23 tháng 05 năm 2026
-
- **Địa điểm:** Tầng 36, Tòa nhà Bitexco, 02 Hai Trieu, Phường Saigon, TP. Hồ Chí Minh
-
- **Vai trò:** Người tham dự
-
----
-
 ### [Event 1](4.1-Event1/)
+&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop
 
- **Tên sự kiện:** FCAJ Community Day
-– Conference Call
+&emsp;**Thời gian:** 09:00 ngày 13/08/2025
 
- **Thời gian:** 9:00 – 12:00, Thứ Bảy, ngày 23 tháng 05 năm 2026
+&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 
- **Địa điểm:** Tầng 26, Tòa nhà Bitexco, 02 Hai Trieu, Phường Saigon, TP. Hồ Chí Minh
+&emsp;**Vai trò trong sự kiện:** Người tham dự 
 
- **Vai trò:** Người tham dự
+
+
+### [Event 2](4.2-Event2/)
+&emsp;**Tên sự kiện:** FCAJ Community Day – Conference Call
+
+&emsp;**Thời gian:** 9:00 – 12:00, Thứ Bảy, 23/05/2026
+
+&emsp;**Địa điểm:** Tầng 36, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+
+&emsp;**Vai trò trong sự kiện:** Người tham dự 
 
