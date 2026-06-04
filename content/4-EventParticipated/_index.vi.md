@@ -7,7 +7,7 @@ pre: " <b> 4. </b> "
 ---
 
 
-### [Event 2](4.2-Event2/)
+### [Event 2](4.1-Event2/)
 
  **Tên sự kiện:** FCAJ Community Day
 – Conference Call
@@ -20,7 +20,7 @@ pre: " <b> 4. </b> "
 
 ---
 
-### [Event 1](4.1-Event1/)
+### [Event 1](4.2-Event1/)
 
  **Tên sự kiện:** DevOps trên AWS
 
