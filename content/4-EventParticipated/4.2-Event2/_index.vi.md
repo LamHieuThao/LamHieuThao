@@ -144,7 +144,10 @@ Buổi workshop tập trung giới thiệu **5 nhóm dịch vụ chính** trên 
 
 
 ### Some event photos
-*Add your event photos here*
+
+![Ảnh tập thể người tham dự sự kiện tại văn phòng AWS](/images/4-EventParticipated/4.2-Event2/01-group-photo.png)
+
+![Slide trình bày về kiến trúc Multi-Agent tại buổi workshop](/images/4-EventParticipated/4.2-Event2/02-multi-agent-presentation.png)
 
 ---
 
