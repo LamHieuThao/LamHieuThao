@@ -10,7 +10,7 @@ pre: " <b> 4. </b> "
 ### [Event 1](4.1-Event1/)  
 &emsp;**Event Name:** GenAI-powered App-DB Modernization workshop  
 
-&emsp;**Date & Time:** 09:00, August 13, 2025  
+&emsp;**Date & Time:** 9:00 AM – 12:00 PM, June 13, 2026  
 
 &emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 
@@ -21,7 +21,7 @@ pre: " <b> 4. </b> "
 ### [Event 2](4.2-Event2/)  
 &emsp;**Event Name:** FCAJ Community Day – Conference Call  
 
-&emsp;**Date & Time:** 9:00 AM – 12:00 PM, Saturday, May 23, 2026  
+&emsp;**Date & Time:** 9:00 AM – 12:00 PM, May 23, 2026  
 
 &emsp;**Location:** 36th Floor, Bitexco Tower, 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City  
 
