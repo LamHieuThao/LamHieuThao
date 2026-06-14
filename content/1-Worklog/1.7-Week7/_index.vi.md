@@ -99,8 +99,8 @@ pre: " <b> 1.7. </b> "
 **Kết quả đạt được:**
 
 * Build lên được trang web chat.
-* API
+
 
 ![Hình ảnh kết quả trang web chat](/images/1-Worklog/1.7-Week7/04.png)
-
+* API
 ![Hình ảnh kết quả API](/images/1-Worklog/1.7-Week7/05.png)
