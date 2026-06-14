@@ -5,55 +5,102 @@ weight: 1
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 7:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Làm các bài lab thực hành.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Thực hành Lab 18 (Enable Security Hub) | 01/06/2026 | 01/06/2026 | Getting Started with AWS Security Hub :: Enable AWS Security Hub |
+| 3 & 4 & 5 & 6 | - Thực hành Lab 117 (Build a Complete serverless Chat Website) | 02/06/2026 | 03/06/2026 | Build a Complete serverless Chat Website :: Start with Amazon VPC and AWS VPN Site-to-Site. |
 
 ### Kết quả đạt được tuần 7:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+#### **Thứ 2**
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+**Lab 18 — Enable Security Hub**
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+**Khái niệm:**
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* AWS Security Hub là dịch vụ quản lý tư thế bảo mật đám mây, đóng vai trò như một "trung tâm chỉ huy" giúp tổng hợp, tổ chức và ưu tiên các cảnh báo bảo mật (findings) từ nhiều dịch vụ AWS khác nhau vào một bảng điều khiển duy nhất.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+**Mục tiêu thực hành lab:**
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+* Thiết lập giám sát bảo mật tập trung bằng AWS Security Hub.
+* Kích hoạt các tiêu chuẩn kiểm tra bảo mật tự động.
+* Đánh giá mức độ tuân thủ bảo mật của tài nguyên AWS.
+* Làm quen với việc phát hiện các vấn đề bảo mật.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+**Lợi ích**
 
+* **Doanh nghiệp:**
+    * Tăng khả năng giám sát bảo mật.
+    * Phát hiện sớm lỗi cấu hình và giảm rủi ro rò rỉ dữ liệu.
+    * Giảm chi phí xử lý sự cố.
 
+**Các bước thực hiện lab:**
+
+* **Bước 1:** Truy cập AWS Security Hub từ AWS Management Console và bắt đầu kích hoạt.
+* **Bước 2:** Xác nhận quyền truy cập để Security Hub thu thập dữ liệu bảo mật từ các dịch vụ AWS liên quan.
+* **Bước 3:** Kích hoạt tiêu chuẩn AWS Foundational Security Best Practices.
+* **Bước 4:** Xác nhận cấu hình và hoàn tất kích hoạt Security Hub.
+* **Bước 5:** Kiểm tra Dashboard và các Findings để đánh giá tình trạng tuân thủ bảo mật của tài nguyên AWS.
+
+**Sơ đồ tóm tắt AWS Security Hub**
+
+![Sơ đồ tóm tắt AWS Security Hub](/images/1-Worklog/1.7-Week7/01.jpeg)
+
+**Kết quả đạt được:**
+
+![Hình ảnh kết quả Lab 18 Security Hub](/images/1-Worklog/1.7-Week7/02.jpeg)
+
+* Hệ thống Security Hub đã vận hành thành công. Đã nắm vững cách kết nối dịch vụ, kích hoạt tiêu chuẩn bảo mật tự động và đọc hiểu các báo cáo phát hiện rủi ro từ hệ thống.
+
+#### **Thứ 3 & 4 & 5 & 6**
+
+**Lab 117 — Build a Complete serverless Chat Website**
+
+**Khái niệm các dịch vụ:**
+
+* **Amazon S3:** Dùng lưu trữ và phân phối các tệp tĩnh của ứng dụng.
+* **AWS Lambda:** Xử lý logic nghiệp vụ của ứng dụng theo mô hình serverless.
+* **Amazon API Gateway:** Tiếp nhận yêu cầu từ người dùng và kết nối với Lambda.
+* **Amazon DynamoDB:** Lưu trữ dữ liệu ứng dụng với hiệu năng cao.
+* **Amazon Cognito:** Quản lý đăng ký, đăng nhập và xác thực người dùng.
+* **Amazon CloudFront:** Tăng tốc độ truy cập nội dung thông qua mạng CDN.
+* **AWS IAM:** Quản lý quyền truy cập tài nguyên AWS theo nguyên tắc quyền tối thiểu.
+
+**Lợi ích:**
+
+* **Doanh nghiệp:**
+    * Tiết kiệm chi phí.
+    * Tự động mở rộng.
+    * Bảo mật cao.
+    * Triển khai nhanh.
+    * Hiệu năng tốt.
+    * Giảm gánh nặng quản trị.
+
+**Mục tiêu thực hiện lab:**
+
+* Xây dựng ứng dụng web serverless trên AWS.
+* Triển khai website bằng S3, Lambda và API Gateway.
+* Lưu trữ dữ liệu với DynamoDB.
+* Xác thực người dùng bằng Cognito.
+* Tăng hiệu năng với CloudFront.
+* Quản lý và dọn dẹp tài nguyên AWS.
+
+**Các bước thực hiện lab:**
+
+![Hình ảnh các bước thực hiện Lab 117](/images/1-Worklog/1.7-Week7/03.jpeg)
+
+**Kết quả đạt được:**
+
+* Build lên được trang web chat.
+* API
+
+![Hình ảnh kết quả trang web chat](/images/1-Worklog/1.7-Week7/04.png)
+
+![Hình ảnh kết quả API](/images/1-Worklog/1.7-Week7/05.png)
