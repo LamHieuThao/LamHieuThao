@@ -8,19 +8,19 @@ pre: " <b> 1. </b> "
 
 **Week 1:** [Join, connect, and integrate into the First Cloud Journey community, and create a free AWS account.)](1.1-week1/)
 
-**Week 2:** [Monitoring (CloudWatch) & Multi-Account Management (AWS Organizations)](1.2-week2/)
+**Week 2:** [Explore AWS services.](1.2-week2/)
 
-**Week 3:** [Deploying Storage Gateway, AWS WAF, and Resource Tagging](1.3-week3/)
+**Week 3:** [Learn about AWS Compute (Virtual Machines), Storage, and Migration services.](1.3-week3/)
 
-**Week 4:** [Project 1: Design & Deploy a Web Application (VPC, EC2, NGINX)](1.4-week4/)
+**Week 4:** [Learn about and explore AWS Storage services, the Snow Family, AWS Storage Gateway, and Disaster Recovery on AWS.](1.4-week4/)
 
-**Week 5:** [Project 1: S3 Integration, WAF, Optimization & IaC Introduction](1.5-week5/)
+**Week 5:** [Explore AWS security services.](1.5-week5/)
 
-**Week 6:** [IaC Deep Dive with CloudFormation (Templates, Stacks, Parameters)](1.6-week6/)
+**Week 6:** [Explore and learn about AWS database services.](1.6-week6/)
 
-**Week 7:** [Serverless (Lambda/API Gateway), CloudFormation StackSets & Terraform Intro](1.7-week7/)
+**Week 7:** [Practice using AWS Security Hub and develop a serverless application.](1.7-week7/)
 
-**Week 8:** [Terraform (Variables) & Building a CI/CD Pipeline (CodePipeline, CodeDeploy)](1.8-week8/)
+**Week 8:** [Practice with AWS Storage Gateway and translate a blog post related to Security/Web3.](1.8-week8/)
 
 **Week 9:** [CI/CD Tools Exploration: Jenkins, Docker, and AWS CodeDeploy](1.9-week9/)
 

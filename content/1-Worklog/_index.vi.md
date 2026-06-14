@@ -8,19 +8,19 @@ pre: " <b> 1. </b> "
 
 **Tuần 1:** [Tham gia, làm quen, hòa nhập với cộng đồng  First Cloud Journey, tạo tài khoản AWS free](1.1-week1/)
 
-**Tuần 2:** [Giám sát (CloudWatch) và Quản lý Đa tài khoản (AWS Organizations)](1.2-week2/)
+**Tuần 2:** [Khám phá các dịch vụ AWS](1.2-week2/)
 
-**Tuần 3:** [Triển khai Storage Gateway, AWS WAF, và Gắn thẻ Tài nguyên](1.3-week3/)
+**Tuần 3:** [Tìm hiểu dịch vụ Compute (VM), Storage và Di trú trên AWS](1.3-week3/)
 
-**Tuần 4:** [Dự án 1: Thiết kế & Triển khai ứng dụng Web (VPC, EC2, NGINX)](1.4-week4/)
+**Tuần 4:** [Tìm hiểu và khám phá dịch vụ lưu trữ AWS, Snow Family, AWS Storage Gateway và Disaster Recovery on AWS](1.4-week4/)
 
-**Tuần 5:** [Dự án 1: Tích hợp S3, WAF, Tối ưu hóa & Giới thiệu về IaC](1.5-week5/)
+**Tuần 5:** [Khám phá các dịch vụ bảo mật AWS](1.5-week5/)
 
-**Tuần 6:** [Học sâu về IaC với CloudFormation (Templates, Stacks, Parameters)](1.6-week6/)
+**Tuần 6:** [Khám phá và học hỏi các dịch vụ Cơ sở dữ liệu trên AWS](1.6-week6/)
 
-**Tuần 7:** [Serverless (Lambda/API Gateway), CloudFormation StackSets & Giới thiệu về Terraform](1.7-week7/)
+**Tuần 7:** [Thực hành AWS Security Hub và phát triển ứng dụng Serverless](1.7-week7/)
 
-**Tuần 8:** [Terraform (Variables) & Xây dựng quy trình CI/CD (CodePipeline, CodeDeploy)](1.8-week8/)
+**Tuần 8:** [Thực hành AWS Storage Gateway và dịch bài blog liên quan đến Security/Web3](1.8-week8/)
 
 **Tuần 9:** [Tìm hiểu các Công cụ CI/CD: Jenkins, Docker, và AWS CodeDeploy](1.9-week9/)
 
