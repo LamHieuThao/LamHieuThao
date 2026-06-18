@@ -77,6 +77,4 @@ pre: " <b> 1.6. </b> "
     * Identify data to cache and cache expiration time.
     * Manage cache updates or invalidation to keep data in sync with the Database.
 
-#### **Thursday & Friday**
 
-Hands-on practice.

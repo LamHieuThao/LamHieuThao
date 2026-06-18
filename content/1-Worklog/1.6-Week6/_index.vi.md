@@ -77,6 +77,4 @@ pre: " <b> 1.6. </b> "
     * Xác định dữ liệu cần cache và thời gian hết hạn cache.
     * Quản lý việc cập nhật hoặc xóa cache để đồng bộ dữ liệu với Database.
 
-#### **Thứ 5 & Thứ 6**
 
-Thực hành.
