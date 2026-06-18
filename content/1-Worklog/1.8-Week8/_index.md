@@ -5,53 +5,74 @@ weight: 1
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 8 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Complete hands-on lab exercises.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 2 & 3 | - Hands-on practice (Lab 24) | 08/06/2026 | 09/06/2026 | Using AWS Storage Gateway :: USING FILE STORAGE GATEWAY |
+| 4 & 5 & 6 | - Translate blog post | 10/06/2026 | 12/06/2026 | |
 
 ### Week 8 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+#### **Monday & Tuesday**
 
-* Successfully created and configured an AWS Free Tier account.
+**Lab 24 — Using AWS Storage Gateway**
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+**Concepts:**
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* **AWS Storage Gateway:** A hybrid storage service connecting on-premises systems with AWS Cloud, enabling seamless data access and synchronization. There are 3 main types of Storage Gateway:
+    * File Gateway
+    * Volume Gateway
+    * Tape Gateway
+* **File Gateway (SMB):** A Storage Gateway component that enables file sharing on Windows via the SMB protocol and stores data on Amazon S3.
+* **Amazon S3:** A highly durable object storage service that serves as the primary storage for data synchronized from File Gateway.
+* **Amazon EC2:** An AWS virtual server used to deploy and operate Storage Gateway in the cloud environment.
+* **AWS Security Group:** A virtual firewall that controls network traffic, ensuring secure connections between the system and Storage Gateway.
 
-* Used AWS CLI to perform basic operations such as:
+**Benefits:**
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* **Enterprise:**
+    * Flexibly expand storage capacity at low cost with Amazon S3.
+    * Easy integration with existing systems without changing applications.
+    * High access performance through local caching.
+    * Enhanced data protection and Disaster Recovery support.
+    * Supports Hybrid Cloud deployment between on-premises infrastructure and AWS.
+    * Simplifies backup and long-term storage with automated policies on S3.
+    * Ensures data safety through encryption during transfer and storage.
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+**Lab objectives:**
+
+* Understand Hybrid Cloud Storage architecture and the role of AWS Storage Gateway in connecting on-premises systems with AWS Cloud.
+* Deploy and configure File Gateway on Amazon EC2.
+* Create and manage an SMB File Share connected to Amazon S3.
+* Mount the File Share on a Windows machine via the SMB protocol.
+* Verify data synchronization between the on-premises environment and Amazon S3.
+
+**Lab steps**
+
+![Lab 24 steps diagram](/images/1-Worklog/1.8-Week8/01.png)
+
+**Results achieved:**
+
+* Successfully created S3.
+* Successfully created EC2 for Storage Gateway.
+
+![S3 and EC2 creation success screenshot](/images/1-Worklog/1.8-Week8/02.png)
+
+![Data sync verification and Cache Gateway configuration screenshot](/images/1-Worklog/1.8-Week8/03.jpeg)
+
+* Successfully verified data synchronization between the on-premises environment and Amazon S3 through AWS Storage Gateway.
+* Successfully configured Cache Gateway to optimize access performance for frequently used data.
+* Set up SMB security with Guest Access and authentication password to control File Share access.
+* Gained a solid understanding of AWS resource management and cleanup to avoid unnecessary costs.
+* Completed the full Hybrid Cloud Storage model, building a foundation for deploying real-world enterprise storage solutions.
+
+#### **Thursday – Saturday**
+
+* Translated and studied the blog post: [SECURITY] SOFTWARE SUPPLY CHAIN SECURITY ACCORDING TO AWS WELL-ARCHITECTED STANDARDS.
+* Original blog link: [Well-architected best practices for software supply chain security | AWS Security Blog](https://aws.amazon.com/blogs/security/well-architected-best-practices-for-software-supply-chain-security/)
