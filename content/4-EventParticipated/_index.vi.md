@@ -8,22 +8,22 @@ pre: " <b> 4. </b> "
 
 
 ### [Event 1](4.1-Event1/)
-&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop
+&emsp;**Tên sự kiện:** FCAJ Community Day – Conference Call
 
-&emsp;**Thời gian:** 09:00 ngày 13/06/2026
+&emsp;**Thời gian:** 9:00 – 12:00, Thứ Bảy, 23/05/2026
 
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+&emsp;**Địa điểm:** Tầng 36, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 
 &emsp;**Vai trò trong sự kiện:** Người tham dự 
 
 
 
 ### [Event 2](4.2-Event2/)
-&emsp;**Tên sự kiện:** FCAJ Community Day – Conference Call
+&emsp;**Tên sự kiện:** GenAI-powered App-DB Modernization workshop
 
-&emsp;**Thời gian:** 9:00 – 12:00, Thứ Bảy, 23/05/2026
+&emsp;**Thời gian:** 09:00 ngày 13/06/2026
 
-&emsp;**Địa điểm:** Tầng 36, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 
 &emsp;**Vai trò trong sự kiện:** Người tham dự 
 
