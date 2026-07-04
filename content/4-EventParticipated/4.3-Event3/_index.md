@@ -8,7 +8,7 @@ pre: " <b> 4.3. </b> "
 
 ### Event Objectives
 
-- Understand product development strategy (POC → MVP) and infrastructure deployment on AWS Cloud.
+- Understand product development strategy (POC → MVP) and infrastructure deployment on AWS Cloud
 - Grasp Voice AI architecture (Speech-to-Speech or STT → LLM → TTS) and the challenges of deploying it for Vietnamese.
 - Learn about AI Agents (DevOps Agent, MCP) for automating incident handling and reducing Mean Time To Recovery (MTTR).
 - Explore AI applications (Amazon Q) in recruitment such as: CV screening, candidate scoring, and interview process optimization.
