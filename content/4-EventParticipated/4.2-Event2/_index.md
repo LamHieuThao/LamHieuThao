@@ -6,121 +6,117 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
-
-# Summary Report: “GenAI-powered App-DB Modernization workshop”
-
 ### Event Objectives
 
-- Share best practices in modern application design
-- Introduce Domain-Driven Design (DDD) and event-driven architecture
-- Provide guidance on selecting the right compute services
-- Present AI tools to support the development lifecycle
+- Understand the actual role and scope of work of a DevOps Engineer in an enterprise.
+- Learn how to design a scalable application system on the AWS platform through a real-world case study.
+- Explore the development journey from a student new to Cloud to becoming an AWS Partner / AWS Community Builder.
+- Discover the real-world work of a Data Analytics Engineer and the skills required for career development.
+- Understand workplace culture and standard recruitment processes at multinational corporations (MNCs).
 
-### Speakers
+---
 
-- **Jignesh Shah** – Director, Open Source Databases
-- **Erica Liu** – Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** – Assc. Specialist SA, Serverless Amazon Web Services
+### Agenda Overview
 
-### Key Highlights
+**Time:** 9:00 AM – 12:00 PM, Saturday, June 13, 2026  
+**Venue:** AWS Vietnam Office
 
-#### Identifying the drawbacks of legacy application architecture
+---
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+## Highlights
 
-#### Transitioning to modern application architecture – Microservices
+### 1. Welcome & Introduction
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+- Check-in and networking among attendees.
+- Introduction to objectives and key content.
+- Overview of event content
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+---
 
-#### Domain-Driven Design (DDD)
+### 2. Overview of Services in the Workshop
 
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
+The meetup focused on 4 main sharing sessions:
 
-#### Event-Driven Architecture
+- Real-world work of a DevOps Engineer
+- Designing a scalable system on AWS (real-world case study)
+- Development journey with the AWS community (from student to AWS Partner/Community Builder)
+- Real-world work of a Data Analytics Engineer and workplace culture at multinational corporations, helping attendees gain a more comprehensive view of tech careers, required skills, and career development paths in Cloud and Data.
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
+---
 
-#### Compute Evolution
+## Main Content of the Workshop
 
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
+### 1. WHAT DOES A DEVOPS ENGINEER REALLY DO? (Real-World Work of a DevOps Engineer)
 
-#### Amazon Q Developer
+**Speaker:** Trọng H. Truong  
+**Position:** DevOps Engineer @ Endava Vietnam
 
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+#### **Main Content**
 
-### Key Takeaways
+- Highlights the gap between what people commonly think DevOps is (writing CI/CD pipelines, using Docker/Kubernetes, being a cloud/platform engineer...) and the actual work a DevOps Engineer performs. The scope of DevOps work depends heavily on specific context: company size, team structure, level of infrastructure/cloud maturity, and product complexity. The session also discussed how AI is changing the pace of engineers' work (debugging time has been significantly reduced with AI coding support tools) and the foundational tools to learn first when pursuing a DevOps career path.
 
-#### Design Mindset
+#### **Knowledge Gained**
 
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+- Understand the actual role and scope of work of a DevOps Engineer, avoiding common misconceptions.
+- Recognize factors (company size, team structure, infrastructure maturity...) that influence the scope of DevOps work.
+- Grasp the foundational tools/skills to learn first and how AI is supporting and accelerating engineers' work.
 
-#### Technical Architecture
+---
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+### 2. A SCALABLE URL SHORTENING SERVICE ON AWS (Designing a Scalable URL Shortening System)
 
-#### Modernization Strategy
+**Speaker:** Đinh Trung Kiên & Nguyễn Minh Thọ  
+**Position:** Lead Developer at a startup & Student
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+#### **Main Content**
 
-### Applying to Work
+- Presented the process of designing a scalable URL shortening service (URL Shortener) on AWS. The team analyzed the pros and cons of the initial simple model (easy to deploy, low cost, but prone to single point of failure, high read latency, and difficult to scale), then built a complete architecture comprising: a Frontend layer (Amazon CloudFront, AWS WAF, AWS Amplify), a Key Generation Service (KGS) using Amazon ECS combined with Amazon ElastiCache (Redis) to pre-generate short codes, and a Backend Service with two separate processing flows — the create flow (ECS/Spring Boot writes to cache and Amazon DynamoDB) and the forward flow (prioritizes reading from cache, queries DynamoDB on cache miss).
 
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+#### **Knowledge Gained**
 
-### Event Experience
+- Understand the process of designing a high-load, flexibly scalable system.
+- Learn how to combine CloudFront, WAF, and Amplify to optimize and protect the frontend layer.
+- Understand the role of ElastiCache (Redis) in pre-generating codes (KGS) and reducing query load on DynamoDB.
+- Distinguish between create and forward flow design in a real-world backend system.
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+---
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+### 3. FROM FIRST CLOUD AI JOURNEY TO AWS PARTNER (Journey from First Cloud AI Journey to AWS Partner)
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
+**Speaker:** Danh Hoàng Hiếu Nghị  
+**Position:** Ex Engineer, AWS Community Builder, AWS Student Builder Group Leader
 
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
+#### **Main Content**
 
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
+- Shared a personal journey through 8 stages: from student curiosity (Student Curiosity), participating in First Cloud Journey, workshops & community, hands-on labs practice, school projects, building a portfolio, becoming an AWS Partner, and finally giving back knowledge to the community (Share Back).
+- Introduced the AWS Student Builder Group program (successor to the AWS Cloud Clubs Program) along with the participation roadmap, benefits, and badges received when attending events (Student Community Day, AWS credits/vouchers...), as well as the AWS Community Builder program for members who actively contribute to the community.
 
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
+#### **Knowledge Gained**
 
-#### Some event photos
-*Add your event photos here*  
+- Understand the development path from a student new to Cloud to becoming an AWS Partner/Community Builder.
+- Learn about the AWS Student Builder Group program and its benefits (badges, credits, vouchers) when participating in community events.
+- Recognize the importance of proactively building a portfolio and "writing your own story" in a tech career.
 
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+---
+
+### 4. FROM REAL-WORLD STORIES TO CORPORATE CULTURE AT MULTINATIONAL CORPORATIONS
+
+**Speaker:** Mr. Dat Pham & Mr. Cường Nguyễn  
+**Position:** Data Analytics Engineer & Process Engineer
+
+#### **Main Content**
+
+- **Data Analytics Engineer:** shared the real-world work of a Data Analytics Engineer through enterprise case studies (Kamereo, Colgate-Palmolive), along with essential skills such as critical thinking, communication, data storytelling, and problem-solving — illustrated through real examples such as Operation Performance, Backup Performance, and Fill Rate Performance. The session also presented a career mindset development path through stages: Follower (executor) → Learner (proactive learner) → Problem Solver, progressing toward System Thinker and Super Star (leader).
+- **Process Engineer:** introduced the standard recruitment process at multinational corporations in 4 steps: Screening & Initial Interview → Aptitude Test → Technical Interview → Cultural Fit Assessment. The session concluded with reflections on the innovative, bold spirit of Vietnam's younger generation in the journey to build "Vietnam's Steve Jobs/Elon Musk."
+
+#### **Knowledge Gained**
+
+- Understand the real-world work of a Data Analytics Engineer at a multinational enterprise.
+- Grasp essential soft skills: critical thinking, communication, data storytelling, and problem-solving.
+- Understand the career mindset development path from executor to system thinker/leader.
+- Learn the standard recruitment process at multinational corporations and corporate culture factors to consider when applying.
+- Gain a clearer awareness of the innovative, bold spirit needed for tech career development in Vietnam.
+
+---
+
+> Through the sharing sessions, I had the opportunity to access realistic and multi-dimensional perspectives on career roles in the technology industry — from DevOps Engineer and AWS system design engineer to Data Analytics Engineer. In particular, I recognized the importance of proactive learning, building a portfolio, and participating in communities (such as the AWS Student Builder Group) for career development. Beyond technical knowledge, the meetup also helped me better understand workplace culture, recruitment processes at multinational corporations, and the innovative mindset needed for personal growth in Cloud and Data.

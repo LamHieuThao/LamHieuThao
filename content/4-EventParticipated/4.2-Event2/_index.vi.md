@@ -7,7 +7,6 @@ pre: " <b> 4.2. </b> "
 ---
 
 
-# Summary Report: GenAI-powered App-DB Modernization workshop
 
 ### Event Objectives
 
