@@ -22,4 +22,4 @@ This blog introduces Turnkey's Enclave-Native Key Management architecture on AWS
 
 ### [Blog 3 - [How AWS DevOps Agent uses multi-agent reasoning to find root causes]](3.3-Blog3/)
 
-This blog introduces AWS DevOps Agent with the Multi-Agent Reasoning architecture, decomposing operational activities into multiple specialized agents working in parallel to generate competing hypotheses, validate evidence, and converge accurately on the root cause of incidents.
+This blog introduces AWS DevOps Agent with the Multi-Agent Reasoning architecture, decomposing operational activities into multiple specialized agents working in parallel to generate competing hypotheses, validate evidence, and converge accurately on the root cause of incidents
