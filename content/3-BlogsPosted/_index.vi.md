@@ -7,8 +7,6 @@ pre: " <b> 3. </b> "
 ---
 
 
-Tại đây sẽ là phần liệt kê, giới thiệu các blogs mà các bạn đã đăng trên [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). Ví dụ:
-
 ### [Blog 1 - [SECURITY] BẢO MẬT CHUỖI CUNG ỨNG PHẦN MỀM THEO CHUẨN AWS WELL-ARCHITECTED](3.1-Blog1/)
 
 Blog này giới thiệu bảo mật chuỗi cung ứng phần mềm (Software Supply Chain Security) trong khung chuẩn AWS Well-Architected — tập hợp các nguyên tắc thiết kế và thực hành kỹ thuật nhằm bảo vệ toàn bộ vòng đời của phần mềm, từ quản lý gói phụ thuộc bên thứ ba đến xác thực tính toàn vẹn mã nguồn trước khi triển khai.
