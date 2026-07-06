@@ -119,4 +119,14 @@ The meetup focused on 4 main sharing sessions:
 
 ---
 
+### Proof of event participation
+
+![Proof of event participation](/images/4-EventParticipated/4.2-Event2/01.png)
+
+![Proof of event participation](/images/4-EventParticipated/4.2-Event2/02.png)
+
+![Proof of event participation](/images/4-EventParticipated/4.2-Event2/03.png)
+
+---
+
 > Through the sharing sessions, I had the opportunity to access realistic and multi-dimensional perspectives on career roles in the technology industry — from DevOps Engineer and AWS system design engineer to Data Analytics Engineer. In particular, I recognized the importance of proactive learning, building a portfolio, and participating in communities (such as the AWS Student Builder Group) for career development. Beyond technical knowledge, the meetup also helped me better understand workplace culture, recruitment processes at multinational corporations, and the innovative mindset needed for personal growth in Cloud and Data.
