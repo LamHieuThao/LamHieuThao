@@ -133,4 +133,12 @@ Buổi workshop tập trung giới thiệu tập trung vào 5 nhóm chính:
 
 ---
 
+### Minh chứng đã tham gia event
+
+![Minh chứng đã tham gia event](/images/4-EventParticipated/4.3-Event3/01.png)
+
+![Minh chứng đã tham gia event](/images/4-EventParticipated/4.3-Event3/02.png)
+
+---
+
 > Thông qua 5 phiên chia sẻ, em đã có cái nhìn thực tế và đa chiều hơn về việc ứng dụng AWS và AI trong doanh nghiệp — từ tư duy thực thi khi vận hành hệ thống và phát triển sản phẩm startup, xây dựng Voice AI cho thị trường Việt Nam, tự động hóa DevOps bằng AI Agent, ứng dụng AI trong quản trị nhân sự, đến kỹ thuật đảm bảo bảo mật khi kết nối AI với dữ liệu nội bộ. Đặc biệt, em nhận thấy xu hướng chung là AI đang được tích hợp ngày càng sâu vào các quy trình vận hành và nghiệp vụ thực tế, đòi hỏi người làm công nghệ không chỉ nắm vững kỹ thuật mà còn cần tư duy thực thi, khả năng giải quyết các bài toán đặc thù (rào cản ngôn ngữ, bảo mật dữ liệu) khi triển khai vào thực tế tại Việt Nam.

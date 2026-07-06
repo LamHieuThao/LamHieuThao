@@ -132,4 +132,12 @@ The workshop focused on introducing 5 main groups:
 
 ---
 
+### Proof of event participation
+
+![Proof of event participation](/images/4-EventParticipated/4.3-Event3/01.png)
+
+![Proof of event participation](/images/4-EventParticipated/4.3-Event3/02.png)
+
+---
+
 > Through the 5 sharing sessions, I gained a more realistic and multi-dimensional view of applying AWS and AI in the enterprise — from an execution mindset in system operations and startup product development, building Voice AI for the Vietnamese market, automating DevOps with AI Agents, applying AI in workforce management, to security techniques for connecting AI with internal data. In particular, I noticed a common trend: AI is being integrated ever more deeply into operational processes and real-world business functions, requiring technology professionals not only to master technical skills but also to have an execution mindset and the ability to solve specific challenges (language barriers, data security) when deploying in practice in Vietnam.
