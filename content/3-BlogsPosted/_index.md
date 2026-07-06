@@ -6,7 +6,6 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-
 ### [Blog 1 - [SECURITY] SOFTWARE SUPPLY CHAIN SECURITY ACCORDING TO AWS WELL-ARCHITECTED](3.1-Blog1/)
 
 This blog introduces Software Supply Chain Security within the AWS Well-Architected framework — a set of design principles and technical practices aimed at protecting the entire software lifecycle, from managing third-party dependency packages to verifying source code integrity before deployment.
