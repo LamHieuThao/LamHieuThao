@@ -119,9 +119,9 @@ Buổi meetup tập trung vào 4 phần chia sẻ chính:
 - Nắm được quy trình tuyển dụng chuẩn tại các tập đoàn đa quốc gia và yếu tố văn hóa doanh nghiệp cần lưu ý khi ứng tuyển.
 - Nhận thức rõ hơn về tinh thần đổi mới, dám nghĩ dám làm trong phát triển sự nghiệp công nghệ tại Việt Nam.
 
----
+----
 
-### Minh chứng đã tham gia event
+### Minh chứng đã tham gia event:
 
 ![Minh chứng đã tham gia event](/images/4-EventParticipated/4.2-Event2/01.png)
 
@@ -129,6 +129,6 @@ Buổi meetup tập trung vào 4 phần chia sẻ chính:
 
 ![Minh chứng đã tham gia event](/images/4-EventParticipated/4.2-Event2/03.png)
 
----
+----
 
 > Thông qua các phần chia sẻ, em đã có cơ hội tiếp cận góc nhìn thực tế và đa chiều về các vị trí công việc trong ngành công nghệ — từ DevOps Engineer, kỹ sư thiết kế hệ thống trên AWS, đến Data Analytics Engineer. Đặc biệt, em nhận thấy tầm quan trọng của việc chủ động học hỏi, xây dựng portfolio và tham gia cộng đồng (như AWS Student Builder Group) trong việc phát triển sự nghiệp. Bên cạnh kiến thức kỹ thuật, buổi meetup còn giúp em hiểu rõ hơn về văn hóa làm việc, quy trình tuyển dụng tại các tập đoàn đa quốc gia và tinh thần đổi mới cần có để phát triển bản thân trong lĩnh vực Cloud và Data.

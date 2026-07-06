@@ -119,7 +119,7 @@ The meetup focused on 4 main sharing sessions:
 
 ---
 
-### Proof of event participation
+### Proof of event participation:
 
 ![Proof of event participation](/images/4-EventParticipated/4.2-Event2/01.png)
 
