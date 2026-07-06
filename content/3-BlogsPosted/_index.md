@@ -12,11 +12,14 @@ pre: " <b> 3. </b> "
 
 This section will list and introduce the blogs you have posted to [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). For example:
 
-###  [Blog 1 - SESSION POLICIES IN AMAZON EKS POD IDENTITY](3.1-Blog1/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+### [Blog 1 - [SECURITY] SOFTWARE SUPPLY CHAIN SECURITY ACCORDING TO AWS WELL-ARCHITECTED](3.1-Blog1/)
 
-###  [Blog 2 - ...](3.2-Blog2/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+This blog introduces Software Supply Chain Security within the AWS Well-Architected framework — a set of design principles and technical practices aimed at protecting the entire software lifecycle, from managing third-party dependency packages to verifying source code integrity before deployment.
 
-###  [Blog 3 - ...](3.3-Blog3/)
-This blog introduces the newly added session policies feature in Amazon EKS Pod Identity, which allows you to narrow IAM permissions flexibly and precisely for each pod without needing to create multiple separate IAM roles. This is an important step forward that helps apply the principle of least privilege more effectively in large-scale Kubernetes environments.
+### [Blog 2 - [SECURITY/Web3] Building secure, verifiable blockchain key management on AWS Nitro Enclaves at Turnkey](3.2-Blog2/)
+
+This blog introduces Turnkey's Enclave-Native Key Management architecture on AWS Nitro Enclaves, moving all core tasks such as key initialization, digital signing, and policy enforcement into a hardware-isolated environment, transforming the key management system from a "black box" into a transparent and cryptographically verifiable model.
+
+### [Blog 3 - [How AWS DevOps Agent uses multi-agent reasoning to find root causes]](3.3-Blog3/)
+
+This blog introduces AWS DevOps Agent with the Multi-Agent Reasoning architecture, decomposing operational activities into multiple specialized agents working in parallel to generate competing hypotheses, validate evidence, and converge accurately on the root cause of incidents.
