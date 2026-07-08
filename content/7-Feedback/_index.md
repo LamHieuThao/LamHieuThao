@@ -6,38 +6,54 @@ chapter: false
 pre: " <b> 7. </b> "
 ---
 
-
-
 ### Overall Evaluation
 
-**1. Working Environment**  
-The working environment is very friendly and open. FCAJ members are always willing to help whenever I encounter difficulties, even outside working hours. The workspace is tidy and comfortable, helping me focus better. However, I think it would be nice to have more social gatherings or team bonding activities to strengthen relationships.
+**1. Working Environment**
 
-**2. Support from Mentor / Team Admin**  
-The mentor provides very detailed guidance, explains clearly when I don’t understand, and always encourages me to ask questions. The admin team supports administrative tasks, provides necessary documents, and creates favorable conditions for me to work effectively. I especially appreciate that the mentor allows me to try and solve problems myself instead of just giving the answer.
+The working and learning atmosphere at FCAJ left me with a very positive impression — it is friendly, approachable, and not overly rigid. The Admin team members are always enthusiastic in helping whenever I have questions, and are even willing to support me outside regular working hours. The workspace is organized in a scientific, clean manner, creating a comfortable feeling and helping me stay focused throughout my work. If I may offer a suggestion, I think the company could organize more internal bonding activities, such as informal gatherings outside of work, so that members — especially interns — have more opportunities to get to know one another and build deeper connections.
 
-**3. Relevance of Work to Academic Major**  
-The tasks I was assigned align well with the knowledge I learned at university, while also introducing me to new areas I had never encountered before. This allowed me to both strengthen my foundational knowledge and gain practical skills.
+**2. Support from Mentor and Intern Management Team**
 
-**4. Learning & Skill Development Opportunities**  
-During the internship, I learned many new skills such as using project management tools, teamwork skills, and professional communication in a corporate environment. The mentor also shared valuable real-world experiences that helped me better plan my career path.
+My Mentor/Admin provided very dedicated guidance, always explaining things thoroughly whenever I was still unfamiliar with something, and never hesitated to encourage me to ask questions proactively. What I appreciate most is that my mentor often let me explore, experiment, and find ways to solve problems on my own first, rather than immediately providing the answer. This approach helped me develop much stronger independent thinking. In addition, the intern management team provided thoughtful support with paperwork and administrative procedures, allowing me to focus on my professional work with peace of mind.
 
-**5. Company Culture & Team Spirit**  
-The company culture is very positive: everyone respects each other, works seriously but still keeps things enjoyable. When there are urgent projects, everyone works together and supports one another regardless of their position. This made me feel like a real part of the team, even as an intern.
+**3. Alignment Between Assigned Work and Academic Background**
 
-**6. Internship Policies / Benefits**  
-The company provides an internship allowance and offers flexible working hours when needed. In addition, having the opportunity to join internal training sessions is a big plus.
+Overall, the tasks I was assigned were closely aligned with the foundational knowledge I had gained at school, while also opening up opportunities for me to explore new areas of knowledge and skills I had never encountered before. This combination helped me both reinforce my professional foundation and expand my practical understanding — something that a purely academic environment at school alone cannot fully provide.
 
----
+**4. Opportunities for Learning and Personal Development**
 
-### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
+My internship period was an opportunity to acquire many practical skills: from using work/project management tools and teamwork skills, to professional communication in a corporate environment. My Mentor/Admin also frequently shared valuable real-world experiences, which helped me form a clearer picture of my future career direction.
 
----
+**5. Company Culture and Team Spirit**
+
+The workplace culture here left me with a very positive impression: everyone respects one another, maintains a serious attitude toward work, yet still preserves a comfortable and cheerful atmosphere. In particular, during urgent project phases, the entire team worked together and supported one another regardless of rank or role. Because of this, even though I was only an intern, I truly felt like part of the team rather than an outsider.
+
+**6. Policies and Benefits for Interns**
+
+The company has a policy of providing allowances for interns and is quite flexible in arranging working hours when necessary. In addition, giving interns the opportunity to participate in internal training sessions is a noteworthy plus, providing me with more learning opportunities beyond the scope of my directly assigned work.
+
+**7. What were you most satisfied with during your internship?**
+
+What satisfied me most was being trusted by my Mentor/Admin with meaningful work in the project, rather than only doing tasks that were superficial in nature. Being directly involved in building the architecture diagram for the Cloud Nexus project helped me gain a deeper understanding of how a serverless system on AWS operates in practice — an experience that would be difficult to visualize clearly through theory alone at school.
+
+**8. What do you think the company should improve for future interns?**
+
+I think the company could organize additional events and more structured training sessions specifically for interns during the early stage, helping everyone become familiar with shared workflows and tools more quickly. In addition, adding more internal bonding activities would also help interns integrate better into the company culture.
+
+**9. If recommending to a friend, would you suggest they intern here? Why?**
+
+Yes, I would recommend my friends to intern here. The reason is that the working environment is quite open, the Mentor/Admin team is dedicated, and they always create opportunities for interns to challenge themselves and learn from real experience, rather than only doing simple, support-oriented tasks. This is a suitable environment for those who want to accumulate hands-on experience, not just stop at theory.
 
 ### Suggestions & Expectations
-- Do you have any suggestions to improve the internship experience?  
-- Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+
+**1. Do you have any suggestions to improve the internship experience?**
+
+I suggest that the company could develop a clearer and more up-to-date onboarding roadmap that keeps pace with global trends for new interns, along with basic guidance documents on workflows and tools used in projects. This would help interns shorten their adjustment period and get started on real work more quickly.
+
+**2. Would you like to continue this program in the future?**
+
+Yes, I hope to have the opportunity to continue working with and contributing more to the company in the future, if conditions allow.
+
+**3. Any other comments (free sharing):**
+
+I would like to sincerely thank my Mentor/Admin and the entire team for creating conditions and supporting me throughout my internship. This has truly been a valuable experience that helped me grow in both professional knowledge and practical work skills.
