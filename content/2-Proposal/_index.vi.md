@@ -62,7 +62,7 @@ Xây dựng một nền tảng serverless trên AWS giúp tự động hóa quy 
 
 ## 4. Kiến trúc giải pháp
 
-![Kiến trúc giải pháp Cloud Nexus](/images/2-Proposal/architecture.png)
+![Kiến trúc giải pháp Cloud Nexus](/images/2-Proposal/architecture.png?width=100pc)
 
 ---
 

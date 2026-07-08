@@ -5,111 +5,120 @@ weight: 2
 chapter: false
 pre: " <b> 2. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
 
-In this section, you need to summarize the contents of the workshop that you **plan** to conduct.
 
-# IoT Weather Platform for Lab Research
-## A Unified AWS Serverless Solution for Real-Time Weather Monitoring
+# Cloud Nexus  
+  
 
-### 1. Executive Summary
-The IoT Weather Platform is designed for the ITea Lab team in Ho Chi Minh City to enhance weather data collection and analysis. It supports up to 5 weather stations, with potential scalability to 10-15, utilizing Raspberry Pi edge devices with ESP32 sensors to transmit data via MQTT. The platform leverages AWS Serverless services to deliver real-time monitoring, predictive analytics, and cost efficiency, with access restricted to 5 lab members via Amazon Cognito.
+## 1. Project Overview
 
-### 2. Problem Statement
-### What’s the Problem?
-Current weather stations require manual data collection, becoming unmanageable with multiple units. There is no centralized system for real-time data or analytics, and third-party platforms are costly and overly complex.
+**Cloud Nexus** is a network security simulation and analysis platform (Threat Modeling Platform) built for cybersecurity professionals and infrastructure architects. The system lets users design network diagrams visually, then uses AI (Google Gemini) to automatically detect vulnerabilities, simulate attack paths, and recommend defensive measures.
 
-### The Solution
-The platform uses AWS IoT Core to ingest MQTT data, AWS Lambda and API Gateway for processing, Amazon S3 for storage (including a data lake), and AWS Glue Crawlers and ETL jobs to extract, transform, and load data from the S3 data lake to another S3 bucket for analysis. AWS Amplify with Next.js provides the web interface, and Amazon Cognito ensures secure access. Similar to Thingsboard and CoreIoT, users can register new devices and manage connections, though this platform operates on a smaller scale and is designed for private use. Key features include real-time dashboards, trend analysis, and low operational costs.
+| Component | Technology |
+|-----------|-----------|
+| Frontend | React + Vite + ReactFlow + Tailwind CSS |
+| Backend | FastAPI on AWS Lambda + API Gateway |
+| AI | Google Gemini API (Gemini 2.0 Flash) |
+| Infrastructure | AWS CDK (TypeScript), Python 3.12 ARM64 |
+| AWS Services | S3, API Gateway, Lambda, Cognito, DynamoDB, SQS, SNS, Step Functions, Secrets Manager |
 
-### Benefits and Return on Investment
-The solution establishes a foundational resource for lab members to develop a larger IoT platform, serving as a study resource, and provides a data foundation for AI enthusiasts for model training or analysis. It reduces manual reporting for each station via a centralized platform, simplifying management and maintenance, and improves data reliability. Monthly costs are $0.66 USD per the AWS Pricing Calculator, with a 12-month total of $7.92 USD. All IoT equipment costs are covered by the existing weather station setup, eliminating additional development expenses. The break-even period of 6-12 months is achieved through significant time savings from reduced manual work.
+---
 
-### 3. Solution Architecture
-The platform employs a serverless AWS architecture to manage data from 5 Raspberry Pi-based stations, scalable to 15. Data is ingested via AWS IoT Core, stored in an S3 data lake, and processed by AWS Glue Crawlers and ETL jobs to transform and load it into another S3 bucket for analysis. Lambda and API Gateway handle additional processing, while Amplify with Next.js hosts the dashboard, secured by Cognito. The architecture is detailed below:
+## 2. Objectives
 
-![IoT Weather Station Architecture](/images/2-Proposal/edge_architecture.jpeg)
+### General Objective
+Build a serverless platform on AWS that automates the network security assessment workflow—from drawing topology to vulnerability detection and attack simulation.
 
-![IoT Weather Platform Architecture](/images/2-Proposal/platform_architecture.jpeg)
+### Specific Objectives
+- **Output:** REST API endpoints + Web Dashboard (React)
+- **AI Integration:** Google Gemini generates topology, analyzes vulnerabilities, and simulates attacks
+- **Alert:** SNS notification when a critical attack is detected
+- **Serverless:** Entire backend runs on Lambda + API Gateway
+- **Infra as Code:** AWS CDK — deploy and destroy with a single command
 
-### AWS Services Used
-- **AWS IoT Core**: Ingests MQTT data from 5 stations, scalable to 15.
-- **AWS Lambda**: Processes data and triggers Glue jobs (two functions).
-- **Amazon API Gateway**: Facilitates web app communication.
-- **Amazon S3**: Stores raw data in a data lake and processed outputs (two buckets).
-- **AWS Glue**: Crawlers catalog data, and ETL jobs transform and load it.
-- **AWS Amplify**: Hosts the Next.js web interface.
-- **Amazon Cognito**: Secures access for lab users.
+### Success Criteria
+1. Web dashboard loads from S3 static hosting
+2. API Gateway returns `{"status":"ok"}` at `/api/health`
+3. Lambda successfully calls Google Gemini and returns valid topology JSON
+4. Entire infrastructure can be deployed with `cdk deploy` and removed with `cdk destroy`
 
-### Component Design
-- **Edge Devices**: Raspberry Pi collects and filters sensor data, sending it to IoT Core.
-- **Data Ingestion**: AWS IoT Core receives MQTT messages from the edge devices.
-- **Data Storage**: Raw data is stored in an S3 data lake; processed data is stored in another S3 bucket.
-- **Data Processing**: AWS Glue Crawlers catalog the data, and ETL jobs transform it for analysis.
-- **Web Interface**: AWS Amplify hosts a Next.js app for real-time dashboards and analytics.
-- **User Management**: Amazon Cognito manages user access, allowing up to 5 active accounts.
+---
 
-### 4. Technical Implementation
-**Implementation Phases**
-This project has two parts—setting up weather edge stations and building the weather platform—each following 4 phases:
-- Build Theory and Draw Architecture: Research Raspberry Pi setup with ESP32 sensors and design the AWS serverless architecture (1 month pre-internship)
-- Calculate Price and Check Practicality: Use AWS Pricing Calculator to estimate costs and adjust if needed (Month 1).
-- Fix Architecture for Cost or Solution Fit: Tweak the design (e.g., optimize Lambda with Next.js) to stay cost-effective and usable (Month 2).
-- Develop, Test, and Deploy: Code the Raspberry Pi setup, AWS services with CDK/SDK, and Next.js app, then test and release to production (Months 2-3).
+## 3. Problems to Solve
 
-**Technical Requirements**
-- Weather Edge Station: Sensors (temperature, humidity, rainfall, wind speed), a microcontroller (ESP32), and a Raspberry Pi as the edge device. Raspberry Pi runs Raspbian, handles Docker for filtering, and sends 1 MB/day per station via MQTT over Wi-Fi.
-- Weather Platform: Practical knowledge of AWS Amplify (hosting Next.js), Lambda (minimal use due to Next.js), AWS Glue (ETL), S3 (two buckets), IoT Core (gateway and rules), and Cognito (5 users). Use AWS CDK/SDK to code interactions (e.g., IoT Core rules to S3). Next.js reduces Lambda workload for the fullstack web app.
+| Problem | Solution |
+|---------|----------|
+| Manual network vulnerability detection is time-consuming | AI automatically scans topology |
+| Attack paths are difficult to visualize | Visual simulation on ReactFlow |
+| Test environment setup is complex | Serverless on AWS with no server management |
+| No tool for evaluating defenses | Compare attack paths before and after adding defenses |
 
-### 5. Timeline & Milestones
-**Project Timeline**
-- Pre-Internship (Month 0): 1 month for planning and old station review.
-- Internship (Months 1-3): 3 months.
-    - Month 1: Study AWS and upgrade hardware.
-    - Month 2: Design and adjust architecture.
-    - Month 3: Implement, test, and launch.
-- Post-Launch: Up to 1 year for research.
+### Target Users
+- Security Analysts
+- Cloud Architects
+- Cybersecurity Students
 
-### 6. Budget Estimation
-You can find the budget estimation on the [AWS Pricing Calculator](https://calculator.aws/#/estimate?id=621f38b12a1ef026842ba2ddfe46ff936ed4ab01).  
-Or you can download the [Budget Estimation File](../attachments/budget_estimation.pdf).
+---
 
-### Infrastructure Costs
-- AWS Services:
-    - AWS Lambda: $0.00/month (1,000 requests, 512 MB storage).
-    - S3 Standard: $0.15/month (6 GB, 2,100 requests, 1 GB scanned).
-    - Data Transfer: $0.02/month (1 GB inbound, 1 GB outbound).
-    - AWS Amplify: $0.35/month (256 MB, 500 ms requests).
-    - Amazon API Gateway: $0.01/month (2,000 requests).
-    - AWS Glue ETL Jobs: $0.02/month (2 DPUs).
-    - AWS Glue Crawlers: $0.07/month (1 crawler).
-    - MQTT (IoT Core): $0.08/month (5 devices, 45,000 messages).
+## 4. Solution Architecture
 
-Total: $0.7/month, $8.40/12 months
+![Cloud Nexus Solution Architecture](/images/2-Proposal/architecture.png?width=100pc)
 
-- Hardware: $265 one-time (Raspberry Pi 5 and sensors).
+---
 
-### 7. Risk Assessment
-#### Risk Matrix
-- Network Outages: Medium impact, medium probability.
-- Sensor Failures: High impact, low probability.
-- Cost Overruns: Medium impact, low probability.
+## 5. Timeline (Jun 1 → Jul 4)
 
-#### Mitigation Strategies
-- Network: Local storage on Raspberry Pi with Docker.
-- Sensors: Regular checks and spares.
-- Cost: AWS budget alerts and optimization.
+| Phase | Scope | Period |
+|-------|-------|--------|
+| **Kickoff** | Environment setup, IAM policy, AWS CLI | 06/01 → 06/04 |
+| **Frontend** | Build UI with React + ReactFlow | 06/05 → 06/09 |
+| **Backend** | FastAPI + AI service + Gemini integration | 06/10 → 06/14 |
+| **Infrastructure** | AWS CDK stacks (Simulation, API, Frontend, Auth) | 06/15 → 06/19 |
+| **Deployment** | Build Lambda Layer, deploy stacks | 06/20 → 06/23 |
+| **Integration** | Connect frontend and backend, configure API key | 06/24 → 06/27 |
+| **Testing** | End-to-end system testing and bug fixes | 06/28 → 06/30 |
+| **Finalization** | Report, documentation, resource cleanup | 07/01 → 07/04 |
 
-#### Contingency Plans
-- Revert to manual methods if AWS fails.
-- Use CloudFormation for cost-related rollbacks.
+---
 
-### 8. Expected Outcomes
-#### Technical Improvements: 
-Real-time data and analytics replace manual processes.  
-Scalable to 10-15 stations.
-#### Long-term Value
-1-year data foundation for AI research.  
-Reusable for future projects.
+## 6. Budget
+
+### Estimated AWS Costs (Monthly)
+
+| Service | Cost |
+|---------|------|
+| S3 Static Hosting | ~$0.01 |
+| API Gateway | $0 (free tier) |
+| Lambda | $0 (free tier) |
+| Cognito | $0 (free tier) |
+| DynamoDB | $0 (free tier) |
+| SQS | $0 (free tier) |
+| SNS | $0 (free tier) |
+| Step Functions | $0 (free tier) |
+| Secrets Manager | ~$0.40 |
+| **Total** | **~$0.41/month** |
+
+### Google Gemini API Costs
+- Gemini 2.0 Flash: free tier with low rate limits
+- Costs apply only when usage exceeds the free tier
+
+### Summary
+The project fits entirely within the AWS Free Tier and Google Gemini Free Tier, with virtually no operating costs.
+
+---
+
+## 7. Risks
+
+| Risk | Description | Level | Mitigation |
+|------|-------------|-------|------------|
+| **API Key Exposure** | Google API key committed to Git | High | Secrets Manager + .gitignore |
+| **Unexpected Costs** | Lambda invoked continuously or abused | Medium | CloudWatch Alarm, budget alert |
+| **Invalid AI Response** | Gemini returns invalid JSON | Medium | Retry logic (2 attempts), fallback |
+| **Lambda Timeout** | AI response too slow (>30s) | Low | Increase timeout, use async SQS |
+| **CDK Deploy Failure** | AWS CDK version mismatch | Low | Pin version, verify before deploy |
+| **CORS** | Browser blocks cross-origin requests | Low | CORS middleware pre-configured |
+| **Data Loss** | DynamoDB accidentally deleted | Medium | Backup, Point-in-Time Recovery |
+
+---
+
+*Project Proposal — Cloud Nexus*
