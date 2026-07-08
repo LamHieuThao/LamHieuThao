@@ -62,7 +62,7 @@ Build a serverless platform on AWS that automates the network security assessmen
 
 ## 4. Solution Architecture
 
-![Cloud Nexus Solution Architecture](/images/2-Proposal/cloud-nexus-architecture.png)
+![Cloud Nexus Solution Architecture](/images/2-Proposal/solution-architecture.svg)
 
 ---
 
