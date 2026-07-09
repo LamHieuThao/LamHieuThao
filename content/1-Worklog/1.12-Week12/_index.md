@@ -33,12 +33,13 @@ pre: " <b> 1.12. </b> "
 
 2. **Write and complete Proposal:**
 
--- 2 of 4 --
+![Proposal](/images/1-Worklog/1.12-Week12/week12-proposal-upload.png)
 
 3. **Upload entire workshop to Github:**
+![GitHub Repository](/images/1-Worklog/1.12-Week12/week12-github-repo.png)
 
 4. **Complete all requirements to request internship acceptance letter:**
 
--- 4 of 4 --
+
 
 

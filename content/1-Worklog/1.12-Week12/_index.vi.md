@@ -33,12 +33,13 @@ pre: " <b> 1.12. </b> "
 
 2. **Viết và hoàn thành Proposal:**
 
--- 2 of 4 --
+![Proposal](/images/1-Worklog/1.12-Week12/week12-proposal-upload.png)
 
 3. **Upload toàn bộ workshop lên Github:**
 
+![GitHub Repository](/images/1-Worklog/1.12-Week12/week12-github-repo.png)
 4. **Hoàn thành toàn bộ yêu cầu để xin nhận mộc thực tập:**
 
--- 4 of 4 --
+
 
 

@@ -1,31 +1,32 @@
 ---
-title: "Workshop"
-date: 2024-01-01
-weight: 5
-chapter: false
+title : "Workshop"
+date :  "2026-07-09" 
+weight : 5 
+chapter : false
 pre: " <b> 5. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy verbatim** for your report, including this warning.
-{{% /notice %}}
+# Cloud Nexus — Threat Modeling Platform on AWS
 
-# Secure Hybrid Access to S3 using VPC Endpoints
+---
 
-#### Overview
 
-**AWS PrivateLink** provides private connectivity to AWS services from VPCs and your on-premises networks, without exposing your traffic to the Public Internet.
+## Overview
 
-In this lab, you will learn how to create, configure, and test VPC endpoints that enable your workloads to reach AWS services without traversing the Public Internet.
+**Cloud Nexus** is a Threat Modeling Platform for cybersecurity professionals and infrastructure architects. Users can design network topologies visually using a drag-and-drop interface, then leverage AI (Google Gemini) to automatically detect vulnerabilities, simulate attack paths, and recommend defense measures. The entire backend runs serverless on AWS (Lambda, API Gateway, S3, CloudFront) and is deployed via AWS CDK.
 
-You will create two types of endpoints to access Amazon S3: a Gateway VPC endpoint, and an Interface VPC endpoint. These two types of VPC endpoints offer different benefits depending on if you are accessing Amazon S3 from the cloud or your on-premises location
-+ **Gateway** - Create a gateway endpoint to send traffic to Amazon S3 or DynamoDB using private IP addresses.You route traffic from your VPC to the gateway endpoint using route tables.
-+ **Interface** - Create an interface endpoint to send traffic to endpoint services that use a Network Load Balancer to distribute traffic. Traffic destined for the endpoint service is resolved using DNS.
+**Key Features:**
+- Visual network topology editor with drag-and-drop nodes
+- AI-powered vulnerability scanning using Google Gemini
+- Attack path simulation with animated visualization
+- Defense recommendation engine
+- Real-time terminal interface for AI commands
 
-#### Content
+---
 
-1. [Workshop overview](5.1-Workshop-overview)
-2. [Prerequiste](5.2-Prerequiste/)
-3. [Access S3 from VPC](5.3-S3-vpc/)
-4. [Access S3 from On-premises](5.4-S3-onprem/)
-5. [VPC Endpoint Policies (Bonus)](5.5-Policy/)
-6. [Clean up](5.6-Cleanup/)
+## Content
+
+ 1. [Concept & Objectives](5.1-concept-objectives/)
+ 2. [Architecture & Technical Design](5.2-architecture-design/)
+ 3. [Deployment & Lab Walkthrough](5.3-deployment-walkthrough/)
+ 4. [Workshop Demo & Video](5.4-workshop-demo/)
+ 5. [Conclusions & Recommendations](5.5-conclusions-recommendations/)
