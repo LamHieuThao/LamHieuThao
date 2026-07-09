@@ -16,6 +16,7 @@ pre: " <b> 1.8. </b> "
 | --- | --- | --- | --- | --- |
 | 2 & 3 | - Thực hành (Lab 24) | 08/06/2026 | 09/06/2026 | Using AWS Storage Gateway :: USING FILE STORAGE GATEWAY |
 | 4 & 5 & 6 | - Dịch bài blog |10/06/2026 |12/06/2026 | |
+| 7 | - Tham gia event của AWS tổ chức | 13/06/2026 | 13/06/2026 | |
 
 ### Kết quả đạt được tuần 8:
 

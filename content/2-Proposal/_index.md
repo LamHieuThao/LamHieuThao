@@ -1,24 +1,30 @@
 ---
 title: "Proposal"
-date: 2024-01-01
+date: "2026-07-04"
 weight: 2
 chapter: false
 pre: " <b> 2. </b> "
 ---
+# Cloud Nexus 
 
-
-# Cloud Nexus  
-  
+---
 
 ## 1. Project Overview
 
-**Cloud Nexus** is a network security simulation and analysis platform (Threat Modeling Platform) built for cybersecurity professionals and infrastructure architects. The system lets users design network diagrams visually, then uses AI (Google Gemini) to automatically detect vulnerabilities, simulate attack paths, and recommend defensive measures.
+**Cloud Nexus** is a Threat Modeling Platform for cybersecurity professionals and infrastructure architects. The system allows users to design network topologies visually using a drag-and-drop interface, then leverage AI (Google Gemini 2.0 Flash) to automatically:
+
+- Generate network topologies from text descriptions
+- Scan for vulnerabilities and identify attack scenarios
+- Simulate attack paths with step-by-step visualization
+- Recommend defense measures for mitigation
+
+### Technology Stack
 
 | Component | Technology |
-|-----------|-----------|
+|-----------|------------|
 | Frontend | React + Vite + ReactFlow + Tailwind CSS |
 | Backend | FastAPI on AWS Lambda + API Gateway |
-| AI | Google Gemini API (Gemini 2.0 Flash) |
+| AI Engine | Google Gemini API (Gemini 2.0 Flash) |
 | Infrastructure | AWS CDK (TypeScript), Python 3.12 ARM64 |
 | AWS Services | S3, API Gateway, Lambda, Cognito, DynamoDB, SQS, SNS, Step Functions, Secrets Manager |
 
@@ -27,98 +33,97 @@ pre: " <b> 2. </b> "
 ## 2. Objectives
 
 ### General Objective
-Build a serverless platform on AWS that automates the network security assessment workflow—from drawing topology to vulnerability detection and attack simulation.
+Build a serverless platform on AWS that automates network security assessment — from topology design to vulnerability detection and attack simulation.
 
 ### Specific Objectives
-- **Output:** REST API endpoints + Web Dashboard (React)
-- **AI Integration:** Google Gemini generates topology, analyzes vulnerabilities, and simulates attacks
-- **Alert:** SNS notification when a critical attack is detected
-- **Serverless:** Entire backend runs on Lambda + API Gateway
-- **Infra as Code:** AWS CDK — deploy and destroy with a single command
+- **REST API + Web Dashboard:** Deploy FastAPI backend on Lambda with API Gateway, React frontend hosted on S3 + CloudFront
+- **AI Integration:** Google Gemini generates network topologies, analyzes vulnerabilities, simulates attack paths with realistic hacker techniques
+- **Attack Visualization:** Animated attack path simulation on ReactFlow canvas showing compromise steps
+- **Defense Recommendations:** AI-powered defense suggestions with the ability to re-run simulations after applying defenses
+- **Serverless Architecture:** Entire backend runs on Lambda + API Gateway with no server management
+- **Infrastructure as Code:** AWS CDK enables one-command deployment and destruction
 
-### Success Criteria
-1. Web dashboard loads from S3 static hosting
-2. API Gateway returns `{"status":"ok"}` at `/api/health`
-3. Lambda successfully calls Google Gemini and returns valid topology JSON
-4. Entire infrastructure can be deployed with `cdk deploy` and removed with `cdk destroy`
 
 ---
 
-## 3. Problems to Solve
+## 3. Problem Statement
 
 | Problem | Solution |
 |---------|----------|
-| Manual network vulnerability detection is time-consuming | AI automatically scans topology |
-| Attack paths are difficult to visualize | Visual simulation on ReactFlow |
-| Test environment setup is complex | Serverless on AWS with no server management |
-| No tool for evaluating defenses | Compare attack paths before and after adding defenses |
+| Manual network vulnerability detection is time-consuming and requires deep expertise | AI automatically scans topology and identifies attack scenarios |
+| Difficult to visualize and understand attack paths | Visual step-by-step simulation on ReactFlow canvas |
+| Complex test environment setup requires significant infrastructure | Serverless on AWS Lambda, no server provisioning needed |
+| No way to evaluate defense effectiveness before deployment | Compare attack paths before/after applying defense measures |
+| Traditional tools are complex and require extensive training | Intuitive drag-and-drop interface for topology design |
 
-### Target Users
-- Security Analysts
-- Cloud Architects
-- Cybersecurity Students
-
----
-
-## 4. Solution Architecture
-
-![Cloud Nexus Solution Architecture](/images/2-Proposal/solution-architecture.svg)
+### Target Audience
+- Security Analysts conducting network security assessments
+- Cloud Architects designing secure cloud infrastructure
+- Cybersecurity Students learning threat modeling concepts
+- Red Team Operators planning penetration tests
 
 ---
 
-## 5. Timeline (Jun 1 → Jul 4)
+## 4. System Architecture
 
-| Phase | Scope | Period |
-|-------|-------|--------|
-| **Kickoff** | Environment setup, IAM policy, AWS CLI | 06/01 → 06/04 |
-| **Frontend** | Build UI with React + ReactFlow | 06/05 → 06/09 |
-| **Backend** | FastAPI + AI service + Gemini integration | 06/10 → 06/14 |
-| **Infrastructure** | AWS CDK stacks (Simulation, API, Frontend, Auth) | 06/15 → 06/19 |
-| **Deployment** | Build Lambda Layer, deploy stacks | 06/20 → 06/23 |
-| **Integration** | Connect frontend and backend, configure API key | 06/24 → 06/27 |
-| **Testing** | End-to-end system testing and bug fixes | 06/28 → 06/30 |
-| **Finalization** | Report, documentation, resource cleanup | 07/01 → 07/04 |
+![System Architecture](/images/2-Proposal/archi.png)
+
+---
+
+## 5. Timeline (Jun 1 → Jul 8)
+
+| Phase | Content | Duration |
+|-------|---------|----------|
+| **Phase 1: Foundation** | Environment setup, AWS account configuration, IAM policies, project scaffolding | Jun 1 → Jun 4 |
+| **Phase 2: Frontend Development** | Build React UI with ReactFlow canvas, node components, terminal interface, theme system | Jun 5 → Jun 11 |
+| **Phase 3: Backend Development** | FastAPI implementation, AI service integration with Gemini, API endpoints for generation/scan/simulation | Jun 12 → Jun 18 |
+| **Phase 4: Infrastructure** | AWS CDK stacks for Lambda, API Gateway, S3, CloudFront, Cognito, Secrets Manager | Jun 19 → Jun 24 |
+| **Phase 5: Integration & Deployment** | Lambda Layer for dependencies, stack deployment, API key configuration via Secrets Manager | Jun 25 → Jun 30 |
+| **Phase 6: Testing & Refinement** | End-to-end testing, bug fixing, user experience improvements, defense simulation polish | Jul 1 → Jul 6 |
+| **Phase 7: Documentation & Finalization** | Project documentation, README, presentation materials, cleanup | Jul 7 → Jul 8 |
 
 ---
 
 ## 6. Budget
 
-### Estimated AWS Costs (Monthly)
+### AWS Monthly Cost (Estimated)
 
-| Service | Cost |
-|---------|------|
-| S3 Static Hosting | ~$0.01 |
-| API Gateway | $0 (free tier) |
-| Lambda | $0 (free tier) |
-| Cognito | $0 (free tier) |
-| DynamoDB | $0 (free tier) |
-| SQS | $0 (free tier) |
-| SNS | $0 (free tier) |
-| Step Functions | $0 (free tier) |
-| Secrets Manager | ~$0.40 |
-| **Total** | **~$0.41/month** |
+| Service | Free Tier | Cost |
+|---------|-----------|------|
+| S3 Static Hosting | 5 GB | ~$0.01 |
+| API Gateway | 1M calls/mo | $0 (free tier) |
+| Lambda | 1M requests/mo | $0 (free tier) |
+| Cognito | 50K MAUs | $0 (free tier) |
+| DynamoDB | 25 GB | $0 (free tier) |
+| SQS | 1M messages/mo | $0 (free tier) |
+| SNS | 100K notifications | $0 (free tier) |
+| Step Functions | 4K state transitions | $0 (free tier) |
+| Secrets Manager | 1 secret | ~$0.40 |
+| CloudFront | 1TB transfer | $0 (free tier) |
+| **Total** | | **~$0.41/month** |
 
-### Google Gemini API Costs
-- Gemini 2.0 Flash: free tier with low rate limits
-- Costs apply only when usage exceeds the free tier
+### Google Gemini API Cost
+- Gemini 2.0 Flash: Free tier available with generous rate limits
+- Extra cost only applies when exceeding free tier limits
 
 ### Summary
-The project fits entirely within the AWS Free Tier and Google Gemini Free Tier, with virtually no operating costs.
+The project operates entirely within AWS Free Tier + Google Gemini Free Tier, resulting in virtually no operational costs for development and testing.
 
 ---
 
-## 7. Risks
+## 7. Risk Assessment
 
-| Risk | Description | Level | Mitigation |
-|------|-------------|-------|------------|
-| **API Key Exposure** | Google API key committed to Git | High | Secrets Manager + .gitignore |
-| **Unexpected Costs** | Lambda invoked continuously or abused | Medium | CloudWatch Alarm, budget alert |
-| **Invalid AI Response** | Gemini returns invalid JSON | Medium | Retry logic (2 attempts), fallback |
-| **Lambda Timeout** | AI response too slow (>30s) | Low | Increase timeout, use async SQS |
-| **CDK Deploy Failure** | AWS CDK version mismatch | Low | Pin version, verify before deploy |
-| **CORS** | Browser blocks cross-origin requests | Low | CORS middleware pre-configured |
-| **Data Loss** | DynamoDB accidentally deleted | Medium | Backup, Point-in-Time Recovery |
+| Risk | Description | Severity | Mitigation |
+|------|-------------|----------|------------|
+| **API Key Leak** | Google API key accidentally committed to Git | High | Secrets Manager stores keys securely; .gitignore prevents commits; Lambda reads at runtime |
+| **Unexpected Cost** | Lambda called excessively or attacked | Medium | CloudWatch Alarms, AWS Budget Alerts, Lambda concurrency limits |
+| **AI Response Error** | Gemini returns invalid JSON or unexpected format | Medium | Retry logic (2 times) with fallback error message |
+| **Lambda Timeout** | AI response too slow (>30s) | Low | Increased timeout configuration; async processing via SQS |
+| **CDK Deploy Error** | AWS CDK version mismatch between environments | Low | Pinned CDK version; pre-deploy validation checks |
+| **CORS Issues** | Browser blocks cross-origin API requests | Low | CORS middleware pre-configured with allowed origins |
+| **Data Loss** | DynamoDB accidentally deleted | Medium | Point-in-Time Recovery enabled; regular backups |
+| **Simulation Accuracy** | AI-generated attack paths may not reflect real-world scenarios | Medium | Clear disclaimer that simulations are educational; human review recommended |
 
 ---
 
-*Project Proposal — Cloud Nexus*
+

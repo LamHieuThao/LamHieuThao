@@ -19,6 +19,7 @@ pre: " <b> 1.5. </b> "
 | 4 | - Amazon Cognito <br> - AWS Organization <br> - AWS Identity Center (SSO) <br> - Amazon Key Management Service (KMS) <br> - AWS Security Hub | 20/05/2026 | 20/05/2026 | Module 05-03 - Amazon Cognito <br> Module 05-04 - AWS Organization <br> Module 05-05 - AWS Identity Center <br> Module 05-06 - Amazon Key Management Service <br> Module 05-07 - AWS Security Hub |
 | 5 | - Thực hành | 21/05/2026 | 21/05/2026 | Create IAM Group :: IAM ROLE & CONDITION |
 | 6 | - Thực hành | 22/05/2026 | 22/05/2026 | |
+| 7 | - Tham gia event | 23/05/2026 | 23/05/2026 | |
 
 ### Kết quả đạt được tuần 5:
 
