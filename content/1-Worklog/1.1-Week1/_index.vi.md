@@ -27,7 +27,7 @@ pre: " <b> 1.1. </b> "
 
 ---
 
-### **Week 1 Achievements**
+### Kết quả đạt được tuần 1:
 
 #### **Thứ 2**
 
