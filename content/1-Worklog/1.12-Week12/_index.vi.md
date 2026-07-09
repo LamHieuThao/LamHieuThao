@@ -3,53 +3,41 @@ title: "Worklog Tuần 12"
 date: 2024-01-01
 weight: 2
 chapter: false
-pre: " <b> 1.12 </b> "
+pre: " <b> 1.12. </b> "
 ---
+
 
 ### Mục tiêu tuần 12:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Hoàn thành toàn bộ công việc, project trong quá trình thực tập.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
+### Bảng tóm tắt nhiệm vụ thực hiện trong tuần:
+
+| Thứ | Nhiệm vụ | Ngày bắt đầu | Ngày kết thúc | Nguồn |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | - Hoàn thành bảng Diagram | 06/07/2026 | 06/07/2026 | |
+| 3 | - Tìm hiểu và upload toàn bộ workshop lên Github | 07/07/2026 | 07/07/2026 | |
+| 4 | - Viết và hoàn thành proposal | 08/07/2026 | 08/07/2026 | |
+| 5 & 6 | - Hoàn thành toàn bộ các yêu cầu để xin nhận mộc thực tập | 09/07/2026 | 10/07/2026 | |
 
+### Thứ 2 -> Thứ 6:
 
-### Kết quả đạt được tuần 12:
+1. **Bảng Diagram hoàn chỉnh:**
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+![Sơ đồ kiến trúc AWS](/images/1-Worklog/1.12-Week12/02-week12-diagram.png)
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+**Mô tả hệ thống:**
+- Cloud Nexus là nền tảng mô phỏng và phân tích bảo mật mạng dành cho an ninh mạng và kiến trúc sư hạ tầng.
+- Hệ thống cho phép người dùng thiết kế sơ đồ mạng trực quan, sau đó sử dụng AI (Google Gemini) để tự động phát hiện lỗ hổng, mô phỏng đường đi tấn công, và đề xuất biện pháp phòng thủ.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+2. **Viết và hoàn thành Proposal:**
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+-- 2 of 4 --
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+3. **Upload toàn bộ workshop lên Github:**
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+4. **Hoàn thành toàn bộ yêu cầu để xin nhận mộc thực tập:**
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+-- 4 of 4 --
 
 

@@ -20,12 +20,12 @@ pre: " <b> 1. </b> "
 
 **Tuần 7:** [Thực hành AWS Security Hub và phát triển ứng dụng Serverless](1.7-week7/)
 
-**Tuần 8:** [Thực hành AWS Storage Gateway và dịch bài blog liên quan đến Security/Web3](1.8-week8/)
+**Tuần 8:** [Thực hành AWS Storage Gateway và thực hành các bài lab](1.8-week8/)
 
-**Tuần 9:** [Tìm hiểu các Công cụ CI/CD: Jenkins, Docker, và AWS CodeDeploy](1.9-week9/)
+**Tuần 9:** [Học và tìm hiểu, dịch bài blog về SECURITY/Web3](1.9-week9/)
 
-**Tuần 10:** [Giới thiệu về Kubernetes (Pods, Deployments) & Backup (Velero)](1.10-week10/)
+**Tuần 10:** [Tiến hành thực hiện làm project cuối kỳ](1.10-week10/)
 
-**Tuần 11:** [K8s Nâng cao (HPA, NetworkPolicy, RBAC) & ALB Routing Nâng cao](1.11-week11/)
+**Tuần 11:** [Tiến hành vẽ Diagram dự án trên draw.io](1.11-week11/)
 
-**Tuần 12:** [ALB Nâng cao (WebSocket, Sticky Sessions) & Kiểm thử Hiệu năng](1.12-week12/)
+**Tuần 12:** [Hoàn thành toàn bộ công việc, project trong quá trình thực tập](1.12-week12/)
