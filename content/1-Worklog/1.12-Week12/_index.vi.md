@@ -20,6 +20,7 @@ pre: " <b> 1.12. </b> "
 | 4 | - Viết và hoàn thành proposal | 08/07/2026 | 08/07/2026 | |
 | 5 & 6 | - Hoàn thành toàn bộ các yêu cầu để xin nhận mộc thực tập | 09/07/2026 | 10/07/2026 | |
 
+### Kết quả đạt được tuần 12:
 ### Thứ 2 -> Thứ 6:
 
 1. **Bảng Diagram hoàn chỉnh:**

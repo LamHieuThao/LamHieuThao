@@ -20,6 +20,7 @@ pre: " <b> 1.12. </b> "
 | 4 | - Write and complete the proposal | 08/07/2026 | 08/07/2026 | |
 | 5 & 6 | - Complete all requirements to request internship acceptance letter | 09/07/2026 | 10/07/2026 | |
 
+### Week 12 Achievements:
 ### Day 2 -> Day 6:
 
 1. **Complete Diagram table:**

@@ -19,6 +19,7 @@ pre: " <b> 1.11. </b> "
 | 2, 3, 4 & 5 | - Thực hiện vẽ Diagram của dự án trên draw.io | 29/06/2026 | 07/02/2026 | |
 | 6 | - Thực hiện chỉnh sửa sau khi được các anh/chị Admin fixback <br> - Mô tả dự án | 03/07/2026 | 03/02/2026 | |
 
+### Kết quả đạt được tuần 11:
 ### Thứ 2 -> Thứ 6:
 
 - Thực hiện vẽ "Sơ đồ kiến trúc điện toán đám mây trên nền tảng AWS" trên Draw.io

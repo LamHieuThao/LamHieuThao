@@ -21,6 +21,7 @@ pre: " <b> 1.10. </b> "
 | 5 & 6   | - Fix remaining bugs                                                                                                             | 25/06/2026   | 26/06/2026      | |
 | 7   | - Participate in event                                                                                                             | 27/06/2026   | 27/06/2026      | |
 
+### Week 10 Achievements:
 ### Day 2:
 
 - Complete the network model design interface using React Flow.

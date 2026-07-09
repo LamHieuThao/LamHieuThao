@@ -21,6 +21,7 @@ pre: " <b> 1.10. </b> "
 | 5 & 6   | - Fix lại các lỗi                                                                                             | 25/06/2026   | 26/06/2026      | |
 | 7   | - Tham gia event                                                                                             | 27/06/2026   | 27/06/2026      | |
 
+### Kết quả đạt được tuần 10:
 ### Thứ 2:
 
 - Hoàn thiện giao diện thiết kế mô hình mạng bằng React Flow.

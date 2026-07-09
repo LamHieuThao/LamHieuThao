@@ -18,7 +18,7 @@ pre: " <b> 1.9. </b> "
 | 4 & 5 & 6 | - Plan and prepare the final semester project | 06/17/2026 | 06/19/2026 | |
 
 
-### Week 9 Work Details:
+### Week 9 Achievements:
 
 **Monday & Tuesday:**
 - Translated blog post title: [SECURITY/Web3] Building secure, verifiable blockchain key management on AWS Nitro Enclaves at Turnkey

@@ -19,6 +19,7 @@ pre: " <b> 1.11. </b> "
 | 2, 3, 4 & 5 | - Create project diagram on draw.io | 29/06/2026 | 07/02/2026 | |
 | 6 | - Make revisions after Admin feedback <br> - Project description | 03/07/2026 | 03/02/2026 | |
 
+### Week 11 Achievements:
 ### Day 2 -> Day 6:
 
 - Create "Cloud Computing Architecture on AWS Platform" diagram on Draw.io
