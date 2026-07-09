@@ -5,55 +5,49 @@ weight: 1
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 9:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Dịch bài blog về Web3/Security.
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Bảng tóm tắt nhiệm vụ thực hiện trong tuần:
 
+| Thứ | Nhiệm vụ | Ngày bắt đầu | Ngày kết thúc | Nguồn |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------- | ------------------------------------------------------------------------------------ |
+| 2 & 3 | - Dịch bài blog Web3/Security <br> - **Bài blog đã dịch:** <br>&emsp; + [SECURITY/Web3] Building secure, verifiable blockchain key management on AWS Nitro Enclaves at Turnkey | 15/06/2026 | 16/06/2026 | AWS Study Group VN |
+| 4 & 5 & 6 | - Lên kế hoạch và chuẩn bị đề tài cho project cuối kỳ | 17/06/2026 | 19/06/2026 | |
 
-### Kết quả đạt được tuần 9:
+### Chi tiết công việc tuần 9:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+**Thứ 2 & Thứ 3:**
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- Tên bài blog đã dịch: [SECURITY/Web3] Building secure, verifiable blockchain key management on AWS Nitro Enclaves at Turnkey
+- Link bài blog gốc: Building secure, verifiable blockchain key management on AWS Nitro Enclaves at Turnkey | AWS Web3 Blog
+- Link bài blog đã dịch và up lên gr: AWS Study Group VN | [SECURITY/Web3] Building secure, verifiable blockchain key management on AWS Nitro Enclaves at Turnkey | Facebook
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+**Thứ 3 -> Thứ 6:**
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+- **Ý tưởng đề tài cuối kỳ:** Tạo ra một trang web dùng để thiết kế, đánh giá, mô phỏng tấn công mạng.
+- **Mô tả ý tưởng:**
+  - Hệ thống cho phép người dùng thiết kế mô hình mạng máy tính bằng ngôn ngữ tự nhiên thông qua Generative AI.
+  - Người dùng chỉ cần nhập một mô tả (prompt) đơn giản
+  - Ví dụ: "Thiết kế cho tôi một mô hình mạng doanh nghiệp cơ bản có Firewall bảo vệ hệ thống."
+  - AI sẽ phân tích yêu cầu, xác định các thành phần cần thiết và tự động sinh ra sơ đồ mạng hoàn chỉnh bao gồm các thiết bị như Router, Switch, Firewall, Server, Client, DMZ, IDS/IPS,... phù hợp với nhu cầu của người dùng.
+  - Sau khi mô hình được tạo, người dùng có thể tiếp tục chỉnh sửa, đánh giá bảo mật và mô phỏng các cuộc tấn công mạng trên chính mô hình đó.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+**Chức năng chính:**
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+- Người dùng nhập mô tả bằng ngôn ngữ tự nhiên để yêu cầu thiết kế mô hình mạng.
+- AI tự động phân tích yêu cầu và sinh sơ đồ mạng phù hợp.
+- Cho phép chỉnh sửa mô hình bằng cách thêm, sửa, xóa các thiết bị mạng.
+- AI kiểm tra tính hợp lý của mô hình và đưa ra cảnh báo, đề xuất cải thiện.
+- Quét và phát hiện các điểm yếu bảo mật trong mô hình mạng.
+- Đề xuất các kịch bản tấn công có thể xảy ra dựa trên lỗ hổng phát hiện được.
+- Mô phỏng chi tiết quá trình tấn công và đánh giá mức độ ảnh hưởng.
+- Đề xuất các biện pháp phòng thủ phù hợp với từng kịch bản tấn công.
+- Cho phép mô phỏng lại sau khi triển khai biện pháp phòng thủ để đánh giá hiệu quả bảo vệ.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+**Mục tiêu đề tài:**
 
+- Xây dựng một ứng dụng GEN AI hỗ trợ thiết kế mạng, đánh giá tính hợp lệ của mô hình, phát hiện lỗ hổng bảo mật, mô phỏng các kịch bản tấn công mạng và đề xuất giải pháp phòng thủ, giúp người học, đặc biệt là người vừa mới bắt đầu học về mạng chưa biết gì về mạng và quản trị viên mạng hiểu rõ hơn về an toàn thông tin và khả năng chống chịu của hệ thống trước các mối đe dọa an ninh mạng.
 

@@ -1,57 +1,47 @@
 ---
-title: "Week 10 Worklog"
+title: "Worklog Week 10"
 date: 2024-01-01
 weight: 2
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
 
-### Week 10 Objectives:
+### Week 10 Goals:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+- Divide tasks and specific assignments among team members.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Summary of tasks completed during the week:
+
+| Day | Task | Start Date | End Date | Source |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
+| 2   | - Build and test the network design interface                                                                                            | 22/06/2026   | 22/06/2026      | |
+| 3   | - Build and test simulation features on the Frontend                                                                                    | 23/06/2026   | 23/06/2026      | |
+| 4   | - Build and test Backend API                                                                                                             | 24/06/2026   | 24/06/2026      | |
+| 5 & 6   | - Fix remaining bugs                                                                                                             | 25/06/2026   | 26/06/2026      | |
+| 7   | - Participate in event                                                                                                             | 27/06/2026   | 27/06/2026      | |
+
+### Day 2:
+
+- Complete the network model design interface using React Flow.
+- Develop drag-and-drop functionality for network devices (Router, Switch, Firewall, Server, etc.) onto the diagram.
+- Develop the function to connect devices using network links.
+- Test the interface by adding, removing, moving devices, and creating connections to ensure stable operations.
+- Check the output data of the network diagram, ensure that device and connection information is stored in the correct JSON format for use by the Backend.
+
+### Day 3:
+
+- Develop the function to save network models and send data to the Backend.
+- Create mock data for Gen AI and Scan Attack features during the Backend integration phase.
+- Test the ability to display network diagrams automatically generated from JSON data.
+- Evaluate the display interface and data processing flow between system components.
+
+### Day 4:
+
+- Build APIs to receive network model data from the Frontend.
+- Implement network structure analysis and model validation features.
+- Test APIs using Swagger UI to confirm that data is processed and returned with correct results.
+- Monitor system logs to check the data flow between Frontend and Backend.
+- Perform test scenarios with multiple types of data to evaluate system stability.
 
 
-### Week 10 Achievements:
-
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...

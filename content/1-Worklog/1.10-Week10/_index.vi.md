@@ -5,55 +5,43 @@ weight: 2
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
 ### Mục tiêu tuần 10:
 
-* Kết nối, làm quen với các thành viên trong First Cloud AI Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+- Phân chia nhiệm vụ và công việc cụ thể cho các thành viên
 
-### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
+### Bảng tóm tắt nhiệm vụ thực hiện trong tuần:
+
+| Thứ | Nhiệm vụ | Ngày bắt đầu | Ngày kết thúc | Nguồn |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCAJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Xây dựng và kiểm thử giao diện thiết kế mạng                                                                                             | 22/06/2026   | 22/06/2026      | |
+| 3   | - Xây dựng và kiểm thử các chức năng mô phỏng trên Frontend                                                                             | 23/06/2026   | 23/06/2026      | |
+| 4   | - Xây dựng và kiểm thử Backend API                                                                                             | 24/06/2026   | 24/06/2026      | |
+| 5 & 6   | - Fix lại các lỗi                                                                                             | 25/06/2026   | 26/06/2026      | |
+| 7   | - Tham gia event                                                                                             | 27/06/2026   | 27/06/2026      | |
 
+### Thứ 2:
 
-### Kết quả đạt được tuần 10:
+- Hoàn thiện giao diện thiết kế mô hình mạng bằng React Flow.
+- Xây dựng chức năng kéo thả các thiết bị mạng (Router, Switch, Firewall, Server,...) lên sơ đồ.
+- Phát triển chức năng kết nối các thiết bị bằng liên kết mạng.
+- Kiểm thử giao diện bằng cách thêm, xóa, di chuyển thiết bị và tạo kết nối để đảm bảo thao tác ổn định.
+- Kiểm tra dữ liệu đầu ra của sơ đồ mạng, đảm bảo thông tin thiết bị và kết nối được lưu đúng định dạng JSON phục vụ cho Backend.
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Thứ 3:
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+- Xây dựng chức năng lưu mô hình mạng và gửi dữ liệu sang Backend.
+- Tạo dữ liệu giả lập (Mock Data) cho các chức năng Gen AI và Scan Attack trong giai đoạn chưa tích hợp Backend.
+- Kiểm thử khả năng hiển thị sơ đồ mạng được sinh tự động từ dữ liệu JSON.
+- Đánh giá giao diện hiển thị và luồng xử lý dữ liệu giữa các thành phần của hệ thống.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+### Thứ 4:
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+- Xây dựng các API tiếp nhận dữ liệu mô hình mạng từ Frontend.
+- Triển khai chức năng phân tích cấu trúc mạng và kiểm tra tính hợp lệ của mô hình.
+- Kiểm thử API bằng Swagger UI để xác nhận dữ liệu được xử lý và trả về đúng kết quả.
+- Theo dõi log hệ thống để kiểm tra luồng dữ liệu giữa Frontend và Backend.
+- Thực hiện các kịch bản kiểm thử với nhiều loại dữ liệu khác nhau nhằm đánh giá độ ổn định của hệ thống.
 
 
