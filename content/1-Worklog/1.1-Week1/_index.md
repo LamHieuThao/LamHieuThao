@@ -20,7 +20,7 @@ pre: " <b> 1.1. </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 2 (Tue) | Receive internship Gmail; join the community WhatsApp group; get to know FCAJ members | 20/04/2026 | 20/04/2026 | |
+| 2 (Tue) | Receive internship Gmail; join the community WhatsApp group; get to know FCAJ members | 17/04/2026 | 20/04/2026 | |
 | 3 (Wed) | Read the code of conduct and regulations required during the AWS internship | 21/04/2026 | 21/04/2026 | Internship Code of Conduct & Regulations :: Internship Report |
 | 4 (Thu) | Study learning materials and create an AWS account (Free Tier, AWS Console, complete 5 post-sign-up tasks) | 22/04/2026 | 22/04/2026 | AWS Free Tier 2025: The Revolution! :: Create an AWS Account |
 | 5 (Fri) | Learn what AWS and FCAJ are; explore AWS services and cloud computing; study AWS management tools | 23/04/2026 | 23/04/2026 | First Cloud Journey Bootcamp 2025 - YouTube; AWS Study Group |

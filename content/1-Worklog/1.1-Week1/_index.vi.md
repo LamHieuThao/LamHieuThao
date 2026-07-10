@@ -19,7 +19,7 @@ pre: " <b> 1.1. </b> "
 
 | Day | Task | Start Date | Completion Date | Reference/Material |
 | :--- | :--- | :--- | :--- | :--- |
-| 2 (Thứ Hai) | Nhận gmail, tham gia group cộng đồng trên Whatsapp, làm quen các thành viên FCAJ | 20/04/2026 | 20/04/2026 | |
+| 2 (Thứ Hai) | Nhận gmail, tham gia group cộng đồng trên Whatsapp, làm quen các thành viên FCAJ | 17/04/2026 | 20/04/2026 | |
 | 3 (Thứ Ba) | Đọc nội quy, các quy định cần thực hiện trong quá trình thực tập tại AWS | 21/04/2026 | 21/04/2026 | Nội quy - Quy định :: Báo cáo thực tập |
 | 4 (Thứ Tư) | Đọc tài liệu học tập và bắt đầu tạo tài khoản AWS (Bậc miễn phí, AWS Console, 5 task sau khi tạo tài khoản) | 22/04/2026 | 22/04/2026 | Bậc miễn phí của AWS 2025: Cuộc cách mạng! :: Tạo tài khoản AWS |
 | 5 (Thứ Năm) | Tìm hiểu AWS, FCAJ là gì? Tìm hiểu các dịch vụ và điện toán đám mây của AWS; Công cụ quản lý AWS Services | 23/04/2026 | 23/04/2026 | First Cloud Journey Bootcamp - 2025 - YouTube; AWS Study Group |
