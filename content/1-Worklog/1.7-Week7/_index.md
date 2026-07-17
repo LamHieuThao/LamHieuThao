@@ -15,7 +15,7 @@ pre: " <b> 1.7. </b> "
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
 | 2 | - Hands-on practice Lab 18 (Enable Security Hub) | 01/06/2026 | 01/06/2026 | Getting Started with AWS Security Hub :: Enable AWS Security Hub |
-| 3 & 4 & 5 & 6 | - Hands-on practice Lab 117 (Build a Complete serverless Chat Website) | 02/06/2026 | 03/06/2026 | Build a Complete serverless Chat Website :: Start with Amazon VPC and AWS VPN Site-to-Site. |
+| 3 & 4 & 5 & 6 | - Hands-on practice Lab 117 (Build a Complete serverless Chat Website) | 02/06/2026 | 05/06/2026 | Build a Complete serverless Chat Website :: Start with Amazon VPC and AWS VPN Site-to-Site. |
 
 ### Week 7 Achievements:
 
