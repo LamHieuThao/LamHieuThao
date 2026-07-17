@@ -15,7 +15,10 @@ pre: " <b> 1.7. </b> "
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
 | 2 | - Thực hành Lab 18 (Enable Security Hub) | 01/06/2026 | 01/06/2026 | Getting Started with AWS Security Hub :: Enable AWS Security Hub |
-| 3 & 4 & 5 & 6 | - Thực hành Lab 117 (Build a Complete serverless Chat Website) | 02/06/2026 | 05/06/2026 | Build a Complete serverless Chat Website :: Start with Amazon VPC and AWS VPN Site-to-Site. |
+| 3 | - Thực hành Lab 117 (Build a Complete serverless Chat Website) | 02/06/2026 | 02/06/2026 | Build a Complete serverless Chat Website :: Start with Amazon VPC and AWS VPN Site-to-Site. |
+| 4 | - Thực hành Lab 117 (Build a Complete serverless Chat Website) | 03/06/2026 | 03/06/2026 | Build a Complete serverless Chat Website :: Start with Amazon VPC and AWS VPN Site-to-Site. |
+| 5 | - Thực hành Lab 117 (Build a Complete serverless Chat Website) | 04/06/2026 | 04/06/2026 | Build a Complete serverless Chat Website :: Start with Amazon VPC and AWS VPN Site-to-Site. |
+| 6 | - Thực hành Lab 117 (Build a Complete serverless Chat Website) | 05/06/2026 | 05/06/2026 | Build a Complete serverless Chat Website :: Start with Amazon VPC and AWS VPN Site-to-Site. |
 
 ### Kết quả đạt được tuần 7:
 
