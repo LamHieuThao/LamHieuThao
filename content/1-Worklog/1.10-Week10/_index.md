@@ -18,7 +18,8 @@ pre: " <b> 1.10. </b> "
 | 2   | - Build and test the network design interface                                                                                            | 22/06/2026   | 22/06/2026      | |
 | 3   | - Build and test simulation features on the Frontend                                                                                    | 23/06/2026   | 23/06/2026      | |
 | 4   | - Build and test Backend API                                                                                                             | 24/06/2026   | 24/06/2026      | |
-| 5 & 6   | - Fix remaining bugs                                                                                                             | 25/06/2026   | 26/06/2026      | |
+| 5   | - Fix remaining bugs                                                                                                             | 25/06/2026   | 25/06/2026      | |
+| 6   | - Fix remaining  bugs                                                                                                             | 26/06/2026   | 26/06/2026      | |
 | 7   | - Participate in event                                                                                                             | 27/06/2026   | 27/06/2026      | |
 
 ### Week 10 Achievements:

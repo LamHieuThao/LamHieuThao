@@ -18,7 +18,8 @@ pre: " <b> 1.10. </b> "
 | 2   | - Xây dựng và kiểm thử giao diện thiết kế mạng                                                                                             | 22/06/2026   | 22/06/2026      | |
 | 3   | - Xây dựng và kiểm thử các chức năng mô phỏng trên Frontend                                                                             | 23/06/2026   | 23/06/2026      | |
 | 4   | - Xây dựng và kiểm thử Backend API                                                                                             | 24/06/2026   | 24/06/2026      | |
-| 5 & 6   | - Fix lại các lỗi                                                                                             | 25/06/2026   | 26/06/2026      | |
+| 5   | - Fix lại các lỗi                                                                                             | 25/06/2026   | 25/06/2026      | |
+| 6   | - Fix lại các lỗi                                                                                             | 26/06/2026   | 26/06/2026      | |
 | 7   | - Tham gia event                                                                                             | 27/06/2026   | 27/06/2026      | |
 
 ### Kết quả đạt được tuần 10:
