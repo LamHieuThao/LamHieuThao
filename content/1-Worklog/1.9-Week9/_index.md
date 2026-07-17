@@ -14,8 +14,8 @@ pre: " <b> 1.9. </b> "
 ### Tasks to be carried out this week:
 | Day | Task | Start Date | End Date | Reference Material |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | -------- | ------------------------------------------------------------------------------------ |
-| 2 | - Translate Web3/Security blog post <br> - **Translated blog post:** <br>&emsp; + [SECURITY/Web3] Building secure, verifiable blockchain key management on AWS Nitro Enclaves at Turnkey | 06/15/2026 | 06/15/2026 | AWS Study Group VN |
-| 3 | - Translate Web3/Security blog post <br> - **Translated blog post:** <br>&emsp; + [SECURITY/Web3] Building secure, verifiable blockchain key management on AWS Nitro Enclaves at Turnkey | 06/16/2026 | 06/16/2026 | AWS Study Group VN |
+| 2 | - Translate Web3/Security blog post <br> - **Translated blog post:** <br>&emsp; + [SECURITY/Web3] Building secure, verifiable blockchain key management on AWS Nitro Enclaves at Turnkey | 15/06/2026 | 15/06/2026 | AWS Study Group VN |
+| 3 | - Translate Web3/Security blog post <br> - **Translated blog post:** <br>&emsp; + [SECURITY/Web3] Building secure, verifiable blockchain key management on AWS Nitro Enclaves at Turnkey | 16/06/2026 | 16/06/2026 | AWS Study Group VN |
 | 4 | - Plan and prepare the final semester project | 17/06/2026 | 17/06/2026 | |
 | 5 | - Plan and prepare the final semester project | 18/06/2026 | 18/06/2026 | |
 | 6 | - Plan and prepare the final semester project | 19/06/2026 | 19/06/2026 | |
