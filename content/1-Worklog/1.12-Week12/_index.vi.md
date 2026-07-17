@@ -18,7 +18,8 @@ pre: " <b> 1.12. </b> "
 | 2 | - Hoàn thành bảng Diagram | 06/07/2026 | 06/07/2026 | |
 | 3 | - Tìm hiểu và upload toàn bộ workshop lên Github | 07/07/2026 | 07/07/2026 | |
 | 4 | - Viết và hoàn thành proposal | 08/07/2026 | 08/07/2026 | |
-| 5 & 6 | - Hoàn thành toàn bộ các yêu cầu để xin nhận mộc thực tập | 09/07/2026 | 10/07/2026 | |
+| 5 | - Hoàn thành toàn bộ các yêu cầu để xin nhận mộc thực tập | 09/07/2026 | 09/07/2026 | |
+| 6 | - Hoàn thành toàn bộ các yêu cầu để xin nhận mộc thực tập | 10/07/2026 | 10/07/2026 | |
 
 ### Kết quả đạt được tuần 12:
 ### Thứ 2 -> Thứ 6:

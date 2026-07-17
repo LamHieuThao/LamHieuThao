@@ -14,8 +14,11 @@ pre: " <b> 1.8. </b> "
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
-| 2 & 3 | - Hands-on practice (Lab 24) | 08/06/2026 | 09/06/2026 | Using AWS Storage Gateway :: USING FILE STORAGE GATEWAY |
-| 4 & 5 & 6 | - Translate blog post | 10/06/2026 | 12/06/2026 | |
+| 2 | - Hands-on practice (Lab 24) | 08/06/2026 | 08/06/2026 | Using AWS Storage Gateway :: USING FILE STORAGE GATEWAY |
+| 3 | - Hands-on practice (Lab 24) | 09/06/2026 | 09/06/2026 | Using AWS Storage Gateway :: USING FILE STORAGE GATEWAY |
+| 4 | - Research & Translate Blog Posts | 10/06/2026 | 10/06/2026 | |
+| 5 | - Research & Translate Blog Posts | 11/06/2026 | 11/06/2026 | |
+| 6 | - Research & Translate Blog Posts | 12/06/2026 | 12/06/2026 | |
 | 7 | - Participate in the event | 13/06/2026 | 13/06/2026 | |
 
 ### Week 8 Achievements:

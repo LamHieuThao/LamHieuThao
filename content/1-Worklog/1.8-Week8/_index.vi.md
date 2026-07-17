@@ -14,8 +14,11 @@ pre: " <b> 1.8. </b> "
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| 2 & 3 | - Thực hành (Lab 24) | 08/06/2026 | 09/06/2026 | Using AWS Storage Gateway :: USING FILE STORAGE GATEWAY |
-| 4 & 5 & 6 | - Dịch bài blog |10/06/2026 |12/06/2026 | |
+| 2 | - Thực hành (Lab 24) Using File Storage Gateway | 08/06/2026 | 08/06/2026 | Using AWS Storage Gateway :: USING FILE STORAGE GATEWAY |
+| 3 | - Thực hành (Lab 24) Using File Storage Gateway | 09/06/2026 | 09/06/2026 | Using AWS Storage Gateway :: USING FILE STORAGE GATEWAY |
+| 4 | - Nguyên cứu & Dịch bài blog | 10/06/2026 | 10/06/2026 | |
+| 5 | - Nguyên cứu & Dịch bài blog | 11/06/2026 | 11/06/2026 | |
+| 6 | - Nguyên cứu & Dịch bài blog | 12/06/2026 | 12/06/2026 | |
 | 7 | - Tham gia event của AWS tổ chức | 13/06/2026 | 13/06/2026 | |
 
 ### Kết quả đạt được tuần 8:

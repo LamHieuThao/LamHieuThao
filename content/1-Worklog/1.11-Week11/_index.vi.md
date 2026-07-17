@@ -16,8 +16,11 @@ pre: " <b> 1.11. </b> "
 
 | Thứ | Nhiệm vụ | Ngày bắt đầu | Ngày kết thúc | Nguồn |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2, 3, 4 & 5 | - Thực hiện vẽ Diagram của dự án trên draw.io | 29/06/2026 | 02/07/2026 | |
-| 6 | - Thực hiện chỉnh sửa sau khi được các anh/chị Admin fixback <br> - Mô tả dự án | 03/07/2026 | 03/02/2026 | |
+| 2 | - Thực hiện vẽ Diagram của dự án trên draw.io | 29/06/2026 | 29/06/2026 | |
+| 3 | - Thực hiện vẽ Diagram của dự án trên draw.io | 30/06/2026 | 30/06/2026 | |
+| 4 | - Thực hiện vẽ Diagram của dự án trên draw.io | 01/07/2026 | 01/07/2026 | |
+| 5 | - Thực hiện vẽ Diagram của dự án trên draw.io | 02/07/2026 | 02/07/2026 | |
+| 6 | - Thực hiện chỉnh sửa sau khi được các anh/chị Admin fixback <br> - Mô tả dự án | 03/07/2026 | 03/07/2026 | |
 
 ### Kết quả đạt được tuần 11:
 ### Thứ 2 -> Thứ 6:

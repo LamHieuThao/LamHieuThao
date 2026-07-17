@@ -16,8 +16,11 @@ pre: " <b> 1.11. </b> "
 
 | Day | Task | Start Date | End Date | Source |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2, 3, 4 & 5 | - Create project diagram on draw.io | 29/06/2026 | 02/07/2026 | |
-| 6 | - Make revisions after Admin feedback <br> - Project description | 03/07/2026 | 03/02/2026 | |
+| 2 | - Create project diagram on draw.io | 29/06/2026 | 29/06/2026 | |
+| 3 | - Create project diagram on draw.io | 30/06/2026 | 30/06/2026 | |
+| 4 | - Create project diagram on draw.io | 01/07/2026 | 01/07/2026 | |
+| 5 | - Create project diagram on draw.io | 02/07/2026 | 02/07/2026 | |
+| 6 | - Make revisions after Admin feedback <br> - Project description | 03/07/2026 | 03/07/2026 | |
 
 ### Week 11 Achievements:
 ### Day 2 -> Day 6:

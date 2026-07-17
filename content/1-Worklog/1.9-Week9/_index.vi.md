@@ -14,8 +14,11 @@ pre: " <b> 1.9. </b> "
 
 | Thứ | Nhiệm vụ | Ngày bắt đầu | Ngày kết thúc | Nguồn |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | ------------- | ------------------------------------------------------------------------------------ |
-| 2 & 3 | - Dịch bài blog Web3/Security <br> - **Bài blog đã dịch:** <br>&emsp; + [SECURITY/Web3] Building secure, verifiable blockchain key management on AWS Nitro Enclaves at Turnkey | 15/06/2026 | 16/06/2026 | AWS Study Group VN |
-| 4 & 5 & 6 | - Lên kế hoạch và chuẩn bị đề tài cho project cuối kỳ | 17/06/2026 | 19/06/2026 | |
+| 2 | - Hoàn thành dịch bài blog Web3/Security và upload lên gr fb  <br> - **Bài blog đã dịch:** <br>&emsp; + [SECURITY/Web3] Building secure, verifiable blockchain key management on AWS Nitro Enclaves at Turnkey | 15/06/2026 | 15/06/2026 | AWS Study Group VN |
+| 3 | - Hoàn thành dịch bài blog Web3/Security và upload lên gr fb  <br> - **Bài blog đã dịch:** <br>&emsp; + [SECURITY/Web3] Building secure, verifiable blockchain key management on AWS Nitro Enclaves at Turnkey | 16/06/2026 | 16/06/2026 | AWS Study Group VN |
+| 4 | - Lên kế hoạch và chuẩn bị đề tài cho project cuối kỳ | 17/06/2026 | 17/06/2026 | |
+| 5 | - Lên kế hoạch và chuẩn bị đề tài cho project cuối kỳ | 18/06/2026 | 18/06/2026 | |
+| 6 | - Lên kế hoạch và chuẩn bị đề tài cho project cuối kỳ | 19/06/2026 | 19/06/2026 | |
 
 ### Kết quả đạt được tuần 9:
 
@@ -24,6 +27,8 @@ pre: " <b> 1.9. </b> "
 - Tên bài blog đã dịch: [SECURITY/Web3] Building secure, verifiable blockchain key management on AWS Nitro Enclaves at Turnkey
 - Link bài blog gốc: Building secure, verifiable blockchain key management on AWS Nitro Enclaves at Turnkey | AWS Web3 Blog
 - Link bài blog đã dịch và up lên gr: AWS Study Group VN | [SECURITY/Web3] Building secure, verifiable blockchain key management on AWS Nitro Enclaves at Turnkey | Facebook
+
+![Hình ảnh đã posts bài thành công](/images/1-Worklog/1.9-Week9/01.png)
 
 **Thứ 3 -> Thứ 6:**
 

@@ -18,7 +18,8 @@ pre: " <b> 1.12. </b> "
 | 2 | - Complete the Diagram table | 06/07/2026 | 06/07/2026 | |
 | 3 | - Learn about and upload the entire workshop to Github | 07/07/2026 | 07/07/2026 | |
 | 4 | - Write and complete the proposal | 08/07/2026 | 08/07/2026 | |
-| 5 & 6 | - Complete all requirements to request internship acceptance letter | 09/07/2026 | 10/07/2026 | |
+| 5 | - Complete all requirements to request internship acceptance letter | 09/07/2026 | 09/07/2026 | |
+| 6 | - Complete all requirements to request internship acceptance letter | 10/07/2026 | 10/07/2026 | |
 
 ### Week 12 Achievements:
 ### Day 2 -> Day 6:
